@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----------------------------------------Colours*/
+
+.container-main-header {
+    color: #fff;
+}
+
+.quote {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #61BF3F;
+}
+
+.container-info {
+    color: #fff;
+}
+
+.nav-arrow {
+    color: #61BF3F;
+}
+
+
+.page-header {
+    color: #fff;
+    
+}
+
+.container-info {
+    background-color: rgba(239, 255, 183, 0.50);
+}
+
+#footer-details {
+    color: #fff;
+    background-color: #696969;
+}
+
+/*-----------------------------------------Navbar*/
+
+.bg-light {
+    background-color: rgba(220, 207, 238, 0.75);
+}
+
+.navbar-brand {
+    max-height: 80px;
+    max-width: 80px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-family: "quicksand", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.btn {
+    margin-right: 50px;
+    background-color: #61BF3F;
+    color: #fff;
+}
+
+/*-----------------------------------------Background*/
+
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+    font-family: "quicksand", sans-serif;
+    
+    
+}
+
+/*-----------------------------------------Header*/
+
+.container-main-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 270px;
+}
+
+.container-main-header h1 {
+    font-size: 80px;
+    font-family: "quicksand", sans-serif;
+}
+
+.container-main-header h4 {
+    font-size: 50px;
+    font-family: "quicksand", sans-serif;
+}
+
+.container-main-header h5 {
+    font-size: 30px;
+    font-family: "quicksand", sans-serif;
+}
+
+.quote {
+    text-align: right;
+    margin-right: 20px
+}
+
+.quote h6 {
+    margin-right: 160px;
+   
+}
+
+/*-----------------------------------------Navigation*/
+
+.nav-arrow i {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+/*-----------------------------------------Main Info*/
+
+.page-header {
+    
+    margin-left: 300px;
+    margin-right: 40px;
+    
+}
+
+.container-info {
+    
+    margin-left: 300px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+/*-----------------------------------------Footer*/
+
+.list-block-item {
+    display: block;
+}
+
+/*-----------------------------------------Media Queries*/
+
