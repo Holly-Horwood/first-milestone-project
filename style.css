@@ -39,6 +39,18 @@
     background-color: rgba(239, 255, 183, 0.80);
 }
 
+.container-trailride {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
+.contact-header {
+    color: #fff;
+}
+
+.container-contact {
+    color: #fff;
+}
+
 #footer-details {
     color: #fff;
     background-color: rgba(239, 255, 183, 0.50);
@@ -81,7 +93,7 @@
 /*-----------------------------------------Background*/
 
 body {
-    background-image: url(images/bg.jpg);
+    background-image: url(assets/images/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -140,7 +152,7 @@ body {
 
 .container-info {
     
-    text-align: center;
+    text-align: left;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
@@ -158,6 +170,58 @@ body {
     margin-bottom: 20px;
     padding: 10px; 
 }
+
+/*-----------------------------------------Trail Rides*/
+
+.container-trailride {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.container-trailride img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.container-trailride-photos img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.trail-button {
+    position: relative;
+    text-align: center;
+}
+
+
+/*-----------------------------------------Contact*/
+
+.contact-header {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.container-contact {
+    margin-left: 50px;
+    margin-right: 1000px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.contact-textarea {
+    width: 500px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.container-map {
+    display: inline-block;
+}
+
 
 /*-----------------------------------------Footer*/
 
