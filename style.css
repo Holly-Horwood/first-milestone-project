@@ -21,24 +21,33 @@
     color: #fff;
 }
 
-.nav-arrow {
-    color: #61BF3F;
-}
-
-
 .page-header {
     color: #fff;
     
 }
 
 .container-info {
-    background-color: rgba(239, 255, 183, 0.50);
+    background-color: rgba(239, 255, 183, 0.80);
+    color: #696969;
+}
+
+.container-videos {
+    background-color: rgba(239, 255, 183, 0.80);
 }
 
 #footer-details {
     color: #fff;
-    background-color: #696969;
+    background-color: rgba(239, 255, 183, 0.50);
 }
+
+#footer-details i {
+    color: #fff;
+}
+ 
+#footer-details i:hover {
+    color: #61BF3F;
+}
+ 
 
 /*-----------------------------------------Navbar*/
 
@@ -101,9 +110,12 @@ body {
     font-family: "quicksand", sans-serif;
 }
 
+/*-----------------------------------------Quote*/
+
 .quote {
     text-align: right;
     margin-right: 20px
+    
 }
 
 .quote h6 {
@@ -111,38 +123,47 @@ body {
    
 }
 
-/*-----------------------------------------Navigation*/
-
-.nav-arrow i {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 30px;
-    position: fixed;
-    z-index: 1;
-}
 
 /*-----------------------------------------Main Info*/
 
 .page-header {
     
-    margin-left: 300px;
-    margin-right: 40px;
+    text-align: center;
+    margin-top: 100px;
     
 }
 
 .container-info {
     
-    margin-left: 300px;
-    margin-right: 40px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
+}
+
+/*-----------------------------------------Videos*/
+
+.container-videos {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px; 
+    display: inline-block;
 }
 
 /*-----------------------------------------Footer*/
 
 .list-block-item {
     display: block;
+}
+
+#footer-details {
+    height: 80px;
+    position: relative;
+}
+
+
+.social-links {
+    font-size: 30px;
 }
 
 /*-----------------------------------------Media Queries*/
