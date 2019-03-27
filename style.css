@@ -173,6 +173,20 @@ body {
     padding: 10px; 
 }
 
+/*-----------------------------------------Horses*/
+
+.page-header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bd-horse-carousel {
+    width: 200px;
+    height: 200px;
+    margin-left: 45%;
+    margin-bottom: 240px;
+}
+
 /*-----------------------------------------Trail Rides*/
 
 .container-trailride {
@@ -257,8 +271,11 @@ body {
 }
 
 #footer-details {
-    height: 110px;
-    position: relative;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 
