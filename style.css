@@ -17,10 +17,6 @@
     color: #61BF3F;
 }
 
-.container-info {
-    color: #fff;
-}
-
 .page-header {
     color: #fff;
     
@@ -40,6 +36,14 @@
 }
 
 .container-trailride {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
+.lesson-header {
+    color: #fff;
+}
+
+.container-lessons {
     background-color: rgba(239, 255, 183, 0.80);
 }
 
@@ -190,6 +194,31 @@ body {
 }
 
 .trail-button {
+    position: relative;
+    text-align: center;
+}
+
+/*-----------------------------------------Lessons*/
+
+.container-lessons {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.container-lessons img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.container-lessons-photos img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.lesson-button {
     position: relative;
     text-align: center;
 }
