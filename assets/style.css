@@ -176,12 +176,14 @@ body {
 }
 
 #horse-carousel .carousel-inner img {
-    max-width: 300px;
-    max-height: 350px;
-    min-width: 300px;
-    min-height: 350px;
-    filter: sepia(80%);
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 400px;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
 
