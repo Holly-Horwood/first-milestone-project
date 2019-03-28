@@ -49,6 +49,10 @@
 }
 
 #carousel-horse-captions li {
+    background-color: #fff;
+}
+
+#carousel-horse-captions li:hover {
     background-color: #61BF3F;
 }
 
@@ -63,6 +67,10 @@
 .carousel-item h5 {
     color: #696969;
     background-color: rgba(239, 255, 183, 0.80);
+}
+
+.trail-header {
+    color: #fff;
 }
 
 .container-trailride {
@@ -132,6 +140,11 @@ body {
     font-family: "quicksand", sans-serif;
 }
 
+.logo {
+    max-height: 80px;
+    max-width: 80px;
+}
+
 /*-----------------------------------------Header*/
 
 .container-main-header {
@@ -175,28 +188,35 @@ body {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
+.container-about {
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 427px;
+}
 
-
-
-.videos {
-    display: inline;
+.article {
+    padding-top: 10px;
 }
 
 .about {
     float: right;
+}
+
+.embed-responsive {
+    margin-bottom: 10px;
 }
     
 
 /*-----------------------------------------Horses Page*/
 
 .page-header {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 50px;
+    font-size: 50px; 
 }
 
 #carousel-horse-captions .carousel-inner img {
@@ -209,6 +229,12 @@ body {
     padding-bottom: 20px;
 }
 
+#carousel-horse-captions li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
@@ -219,37 +245,45 @@ body {
 
 /*-----------------------------------------Trail Rides*/
 
-.container-trailride {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    padding: 10px;
-}
-
-#trail-carousel {
-    width: 250px;
-    height: 250px;
-    
-    
-}
-
-.carousel {
-  margin: 0 auto;
-}
-.container-trailride img {
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.container-trailride-photos img {
-    height: 200px;
-    width: 250px;
-    margin-bottom: 50px;
-}
-
-.trail-button {
-    position: relative;
+.trail-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
+    font-size: 50px;   
+}
+
+.container-trailride {
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.trek-pic {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.trek-pic:hover {
+    transform: scale(2.0);
+}
+
+
+
+
+.trail-carousel {
+    margin-bottom: 100px;
+}
+
+#carousel-trail-captions .carousel-inner img {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*-----------------------------------------Lessons*/
