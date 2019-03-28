@@ -35,6 +35,10 @@
     background-color: rgba(239, 255, 183, 0.80);
 }
 
+#horse-carousel {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
 .container-trailride {
     background-color: rgba(239, 255, 183, 0.80);
 }
@@ -168,14 +172,19 @@ body {
 .page-header {
     margin-top: 50px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.bd-horse-carousel {
-    width: 200px;
-    height: 200px;
-    margin-left: 45%;
-    margin-bottom: 240px;
+#horse-carousel .carousel-inner img {
+    max-width: 300px;
+    max-height: 350px;
+    min-width: 300px;
+    min-height: 350px;
+    filter: sepia(80%);
+    margin: 0 auto;
 }
+
+
 
 /*-----------------------------------------Trail Rides*/
 
@@ -186,6 +195,16 @@ body {
     padding: 10px;
 }
 
+#trail-carousel {
+    width: 250px;
+    height: 250px;
+    
+    
+}
+
+.carousel {
+  margin: 0 auto;
+}
 .container-trailride img {
     max-height: 100px;
     max-width: 100px;
