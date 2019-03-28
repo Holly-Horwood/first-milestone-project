@@ -75,6 +75,7 @@
 
 .container-trailride {
     background-color: rgba(239, 255, 183, 0.80);
+    color: #696969;
 }
 
 .lesson-header {
@@ -208,7 +209,14 @@ body {
 .embed-responsive {
     margin-bottom: 10px;
 }
-    
+
+.videos {
+    filter: sepia(80%);
+}
+
+.videos:hover {
+    filter: none;
+}
 
 /*-----------------------------------------Horses Page*/
 
@@ -253,37 +261,11 @@ body {
 }
 
 .container-trailride {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 10px;
+    padding-bottom: 0px;
     text-align: center;
-}
-
-.trek-pic {
-    max-width: 150px;
-    max-height: 150px;
-    min-width: 150px;
-    min-height: 150px;
-}
-
-.trek-pic:hover {
-    transform: scale(2.0);
-}
-
-
-
-
-.trail-carousel {
-    margin-bottom: 100px;
-}
-
-#carousel-trail-captions .carousel-inner img {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
-    margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border-radius: 25px;
 }
 
 /*-----------------------------------------Lessons*/
