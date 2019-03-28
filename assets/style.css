@@ -17,6 +17,15 @@
     color: #61BF3F;
 }
 
+.btn {
+    background-color: #61BF3F;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #3A7326;
+}
+
 .page-header {
     color: #fff;
     
@@ -35,7 +44,24 @@
     background-color: rgba(239, 255, 183, 0.80);
 }
 
-#horse-carousel {
+#carousel-horse-captions {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
+#carousel-horse-captions li {
+    background-color: #61BF3F;
+}
+
+.carousel-control-prev {
+    background-color: #61BF3F;
+}
+
+.carousel-control-next {
+    background-color: #61BF3F;
+}
+
+.carousel-item h5 {
+    color: #696969;
     background-color: rgba(239, 255, 183, 0.80);
 }
 
@@ -94,8 +120,6 @@
 
 .btn {
     margin-right: 50px;
-    background-color: #61BF3F;
-    color: #fff;
 }
 
 /*-----------------------------------------Background*/
@@ -135,17 +159,16 @@ body {
 
 .quote {
     text-align: right;
-    margin-right: 40px
+    margin-right: 40px;
     margin-bottom: 30px;
 }
 
 .quote h6 {
     margin-right: 160px;
-   
 }
 
 
-/*-----------------------------------------Main Info*/
+/*-----------------------------------------About Page*/
 
 .page-header h2 {
     
@@ -167,15 +190,16 @@ body {
 }
     
 
-/*-----------------------------------------Horses*/
+/*-----------------------------------------Horses Page*/
 
 .page-header {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     text-align: center;
+    font-size: 50px;
 }
 
-#horse-carousel .carousel-inner img {
+#carousel-horse-captions .carousel-inner img {
     max-width: 400px;
     max-height: 400px;
     min-width: 400px;
@@ -183,7 +207,12 @@ body {
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+}
+
+.carousel-item h5 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 337px;
 }
 
 
