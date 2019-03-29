@@ -78,6 +78,10 @@
     color: #696969;
 }
 
+#carousel-trail-captions {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
 .lesson-header {
     color: #fff;
 }
@@ -88,6 +92,14 @@
 
 .contact-header {
     color: #fff;
+}
+
+.container-clinic {
+    background-color: rgba(239, 255, 183, 0.80);
+}
+
+#carousel-facilities-captions {
+    background-color: rgba(239, 255, 183, 0.80);
 }
 
 .container-contact {
@@ -233,8 +245,8 @@ body {
     min-width: 400px;
     min-height: 400px;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #carousel-horse-captions li {
@@ -268,55 +280,102 @@ body {
     border-radius: 25px;
 }
 
+#carousel-trail-captions .carousel-inner img {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#carousel-trail-captions li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#carousel-trail-captions img:hover {
+    transform: scale(2.2);
+}
+
+#carousel-trail-captions.carousel-item h5 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 1000px;
+}
+
+
 /*-----------------------------------------Lessons*/
 
 .container-lessons {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     padding: 10px;
-}
-
-.container-lessons img {
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.container-lessons-photos img {
-    height: 200px;
-    width: 250px;
-    margin-bottom: 50px;
-}
-
-.lesson-button {
-    position: relative;
+    padding-bottom: 0px;
     text-align: center;
+    border-radius: 25px;
+}    
+
+.container-clinic {
+    border-radius: 25px;
 }
 
+.clinic-img {
+    border-radius: 25px;
+}
+
+/*-----------------------------------------Facilities*/
+
+#carousel-facilities-captions .carousel-inner img {
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#carousel-facilities-captions li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-item h5 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 337px;
+}
 
 /*-----------------------------------------Contact*/
 
 .contact-header {
-    text-align: center;
     margin-top: 5px;
-    margin-bottom: 50px;
 }
 
-.container-contact {
+.form-group {
+    width: 600px;
     margin-left: 50px;
-    margin-right: 1000px;
-    margin-top: 50px;
-    display: inline-block;
+}
+
+.message-box {
+     width: 600px;
+    margin-left: 50px;
+    
 }
 
 .contact-textarea {
-    width: 500px;
-    height: 150px;
-    margin-bottom: 20px;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
 }
 
-.container-map {
-    display: inline-block;
+.map {
+    max-height: 300px;
+    max-width: 300px;
+    filter: sepia(50%);
 }
 
 
@@ -337,7 +396,6 @@ body {
 
 .social-links {
     font-size: 50px;
-    
 }
 
 /*-----------------------------------------Media Queries*/
