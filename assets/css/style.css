@@ -160,7 +160,7 @@
 /*-----------------------------------------General*/
 
 body {
-    background-image: url(assets/images/wild-horses.jpg);
+    background-image: url(/assets/images/wild-horses.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
