@@ -31,16 +31,16 @@
 }
 
 .container-about {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
 .container-video {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
 }
 
 #carousel-horse-captions {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
 }
 
 #carousel-horse-captions li {
@@ -69,20 +69,20 @@
 
 .carousel-item h5 {
     color: #696969;
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
 }
 
 .container-trailride {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
 #carousel-trail-captions {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
 }
 
 .container-lessons {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
@@ -92,12 +92,12 @@
 }
 
 .container-clinic {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
 #carousel-facilities-captions {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
 }
 
 .container-contact {
@@ -105,7 +105,7 @@
 }
 
 .map p {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .modal-body {
-    background-color: rgba(240, 229, 165. 0.80);
+    background-color: rgba(240, 229, 165, 0.80);
     color: #696969;
 }
 
@@ -160,7 +160,7 @@
 /*-----------------------------------------General*/
 
 body {
-    background-image: url(/assets/images/wild-horses.jpg);
+    background-image: url(../assets/images/wild-horses.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
