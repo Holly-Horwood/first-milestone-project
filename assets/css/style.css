@@ -31,20 +31,20 @@
 }
 
 .container-about {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
 .container-video {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 #carousel-horse-captions {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 #carousel-horse-captions li {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 #carousel-horse-captions li:hover {
@@ -69,20 +69,20 @@
 
 .carousel-item h5 {
     color: #696969;
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 .container-trailride {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
 #carousel-trail-captions {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 .container-lessons {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
@@ -92,12 +92,12 @@
 }
 
 .container-clinic {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
 #carousel-facilities-captions {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 .container-contact {
@@ -105,7 +105,7 @@
 }
 
 .map p {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
@@ -115,14 +115,14 @@
 }
 
 .modal-body {
-    background-color: rgba(240, 229, 165, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
 
 
 #footer-details {
     color: #fff;
-    background-color: rgba(239, 255, 183, 0.50);
+    background-color: #99999977;
 }
 
 #footer-details i {
@@ -137,7 +137,7 @@
 /*-----------------------------------------Navbar*/
 
 .bg-light {
-    background-color: rgba(220, 207, 238, 0.75);
+    background-color: rgba(127, 101, 76, 0.75);
 }
 
 .navbar-brand {
@@ -160,7 +160,7 @@
 /*-----------------------------------------General*/
 
 body {
-    background-image: url(../assets/images/wild-horses.jpg);
+    background-image: url(/assets/images/wild-horses.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -236,7 +236,7 @@ body {
 }
 
 .videos {
-    filter: sepia(80%);
+    filter: grayscale(80%);
 }
 
 .videos:hover {
