@@ -28,16 +28,11 @@
 
 .page-header {
     color: #fff;
-    
 }
 
 .container-about {
     background-color: rgba(239, 255, 183, 0.80);
     color: #696969;
-}
-
-.videos-header {
-    color: #fff;
 }
 
 .container-video {
@@ -56,6 +51,14 @@
     background-color: #61BF3F;
 }
 
+#carousel-trail-captions li:hover {
+    background-color: #61BF3F;
+}
+
+#carousel-facilities-captions li:hover {
+    background-color: #61BF3F;
+}
+
 .carousel-control-prev {
     background-color: #61BF3F;
 }
@@ -69,10 +72,6 @@
     background-color: rgba(239, 255, 183, 0.80);
 }
 
-.trail-header {
-    color: #fff;
-}
-
 .container-trailride {
     background-color: rgba(239, 255, 183, 0.80);
     color: #696969;
@@ -82,20 +81,19 @@
     background-color: rgba(239, 255, 183, 0.80);
 }
 
-.lesson-header {
-    color: #fff;
-}
-
 .container-lessons {
     background-color: rgba(239, 255, 183, 0.80);
+    color: #696969;
 }
 
-.contact-header {
+.text-wrapper {
     color: #fff;
+    background-color: #61BF3F80;
 }
 
 .container-clinic {
     background-color: rgba(239, 255, 183, 0.80);
+    color: #696969;
 }
 
 #carousel-facilities-captions {
@@ -148,7 +146,7 @@
     margin-right: 50px;
 }
 
-/*-----------------------------------------Background*/
+/*-----------------------------------------General*/
 
 body {
     background-image: url(/assets/images/wild-horses.jpg);
@@ -163,7 +161,14 @@ body {
     max-width: 80px;
 }
 
-/*-----------------------------------------Header*/
+.page-header {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px; 
+}
+
+/*-----------------------------------------Home Page*/
 
 .container-main-header {
     text-align: center;
@@ -201,14 +206,6 @@ body {
 
 /*-----------------------------------------About Page*/
 
-.page-header h2 {
-    
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-size: 40px;
-}
-
 .container-about {
     padding: 10px;
     margin-bottom: 20px;
@@ -242,18 +239,11 @@ body {
 
 /*-----------------------------------------Horses Page*/
 
-.page-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 50px; 
-}
-
 #carousel-horse-captions .carousel-inner img {
-    max-width: 400px;
-    max-height: 400px;
-    min-width: 400px;
-    min-height: 400px;
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 450px;
+    min-height: 450px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -268,19 +258,12 @@ body {
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
-    width: 337px;
+    width: 310px;
 }
 
 
 
 /*-----------------------------------------Trail Rides*/
-
-.trail-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 50px;   
-}
 
 .container-trailride {
     margin-bottom: 10px;
@@ -291,13 +274,13 @@ body {
 }
 
 #carousel-trail-captions .carousel-inner img {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+    min-width: 220px;
+    min-height: 220px;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #carousel-trail-captions li {
@@ -325,23 +308,52 @@ body {
     padding-bottom: 0px;
     text-align: center;
     border-radius: 25px;
-}    
+}   
+
+.lesson-button {
+    margin-top: 5px;
+}
+
+.trail-button {
+    margin-top: 5px;
+}
 
 .container-clinic {
     border-radius: 25px;
+    text-align: center;
 }
 
-.clinic-img {
-    border-radius: 25px;
+.clinic-info {
+    padding: 10px;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.clinic-button {
+    margin-top: 50px;
+}
+
+.clinic-button p {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.clinic-btn {
+    margin-left: 30px;
 }
 
 /*-----------------------------------------Facilities*/
 
 #carousel-facilities-captions .carousel-inner img {
-    max-width: 400px;
-    max-height: 400px;
-    min-width: 400px;
-    min-height: 400px;
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 450px;
+    min-height: 450px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -356,30 +368,28 @@ body {
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
-    width: 337px;
+    width: 310px;
 }
 
 /*-----------------------------------------Contact*/
 
-.contact-header {
-    margin-top: 5px;
-}
-
 .form-group {
     width: 600px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .message-box {
     width: 600px;
-    margin-left: 50px;
-    
+    margin-left: 150px;
 }
 
-.contact-textarea {
-    width: 600px;
-    height: 200px;
-    border-radius: 10px;
+#comment {
+    height: 80px;
+}
+
+.send-btn {
+    margin-left: 400px;
+    margin-top: 20px;
 }
 
 .map iframe{
