@@ -10,7 +10,7 @@
     <!--FONT AWESOME REFERENCE-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!--CSS STYLE SHEET REFERENCE-->
-    <link rel="stylesheet" href="/assets/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <title>Majestic Equestrian</title>
 </head>
 
@@ -51,7 +51,7 @@
 
         <!--START OF BOOK NOW BUTTON-->
         <div class="book-btn">
-            <button type="button" class="btn btn-lg">Book Now!</button>
+            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#book-modal">Book Now!</button>
         </div>
     </nav>
     <!--END OF BOOK NOW BUTTON-->
@@ -73,8 +73,8 @@
                 <p>Work with one of our highly qualified instructors to learn the skills needed to excel at Working Equitation while mastering the art of horsemanship to better communicate with your faithful stead.</p>
             </div>
             <div class="col-md-2 col-sm-12">
-                <div class="lesson-button">
-                    <button type="button" class="btn btn-lg">Book Now!</button>
+                <div class="book-btn lesson-button">
+                    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#book-modal">Book Now!</button>
                 </div>
             </div>
         </div>
@@ -89,8 +89,8 @@
                 <p>Similar to our 1hr lesson but with extra time added for speed trial practice.  This lesson is great if you are preparing for competition.</p>
             </div>
             <div class="col-md-2 col-sm-12">
-                <div class="lesson-button">
-                    <button type="button" class="btn btn-lg">Book Now!</button>
+                <div class="book-btn lesson-button">
+                    <button type="button" class="btn btn-lg data-toggle="modal" data-target="#book-modal"">Book Now!</button>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="clinic-button">
-                    <button type="button" class="btn btn-lg clinic-btn">Book Now!</button>
+                    <button type="button" class="btn btn-lg clinic-btn" data-toggle="modal" data-target="#book-modal">Book Now!</button>
                     <p>Limited space so get in quick!</p>
                 </div>
             </div>
@@ -163,7 +163,10 @@
             </div>
         </div>
     </footer>
-
+<!--JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 

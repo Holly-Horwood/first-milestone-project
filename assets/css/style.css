@@ -31,16 +31,16 @@
 }
 
 .container-about {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
     color: #696969;
 }
 
 .container-video {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
 }
 
 #carousel-horse-captions {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
 }
 
 #carousel-horse-captions li {
@@ -69,20 +69,20 @@
 
 .carousel-item h5 {
     color: #696969;
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
 }
 
 .container-trailride {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
     color: #696969;
 }
 
 #carousel-trail-captions {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
 }
 
 .container-lessons {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
     color: #696969;
 }
 
@@ -92,12 +92,12 @@
 }
 
 .container-clinic {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
     color: #696969;
 }
 
 #carousel-facilities-captions {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
 }
 
 .container-contact {
@@ -105,9 +105,20 @@
 }
 
 .map p {
-    background-color: rgba(239, 255, 183, 0.80);
+    background-color: rgba(240, 229, 165. 0.80);
     color: #696969;
 }
+
+.modal-title {
+    background-color: #61BF3F;
+    color: #fff;
+}
+
+.modal-body {
+    background-color: rgba(240, 229, 165. 0.80);
+    color: #696969;
+}
+
 
 #footer-details {
     color: #fff;
@@ -383,6 +394,10 @@ body {
     margin-left: 150px;
 }
 
+.message-box p {
+    font-size: 10px;
+}
+
 #comment {
     height: 80px;
 }
@@ -393,16 +408,44 @@ body {
 }
 
 .map iframe{
-    margin-top:25px;
+    margin-top: 10px;
     height: 300px;
     width: 500px;
     filter: sepia(50%);
 }
 
 .map p {
-    margin-right: 250px;
+    margin-right: 251px;
     padding: 10px;
     
+}
+
+/*-----------------------------------------Modal*/
+
+.modal-content {
+    text-align: left;
+}
+
+.modal-title {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.form-modal {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.message-modal {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.modal-footer {
+  bottom:0px;
+  position:absolute;
+  width:100%;
 }
 
 /*-----------------------------------------Footer*/
