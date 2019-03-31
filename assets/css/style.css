@@ -14,11 +14,15 @@
 }
 
 .nav-link:hover {
-    color: #61BF3F;
+    color: #fff;
+    background-color: #61BF3F88;
 }
 
 .btn {
     background-color: #61BF3F;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
+    box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
     color: #fff;
 }
 
@@ -96,6 +100,11 @@
     color: #696969;
 }
 
+.card {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #696969;
+}
+
 #carousel-facilities-captions {
     background-color: rgba(255, 255, 255, 0.90);
 }
@@ -136,10 +145,6 @@
 
 /*-----------------------------------------Navbar*/
 
-.bg-light {
-    background-color: rgba(127, 101, 76, 0.75);
-}
-
 .navbar-brand {
     max-height: 80px;
     max-width: 80px;
@@ -153,6 +158,12 @@
     padding: 20px;
 }
 
+.nav-link:hover {
+    font-weight: 600;
+    border-radius: 50px;
+}
+    
+
 .btn {
     margin-right: 50px;
 }
@@ -160,7 +171,7 @@
 /*-----------------------------------------General*/
 
 body {
-    background-image: url(assets/images/wild-horses.jpg);
+    background-image: url(../images/wild-horses.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -356,6 +367,19 @@ body {
 
 .clinic-btn {
     margin-left: 30px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 25px;
+}    
+
+.card-body {
+   padding: 10px; 
 }
 
 /*-----------------------------------------Facilities*/
