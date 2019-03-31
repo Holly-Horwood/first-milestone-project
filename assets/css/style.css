@@ -132,16 +132,17 @@
 #footer-details {
     color: #fff;
     background-color: #99999977;
+
 }
 
 #footer-details i {
     color: #fff;
 }
- 
+
 #footer-details i:hover {
     color: #61BF3F;
 }
- 
+
 
 /*-----------------------------------------Navbar*/
 
@@ -162,7 +163,7 @@
     font-weight: 600;
     border-radius: 50px;
 }
-    
+
 
 .btn {
     margin-right: 50px;
@@ -187,7 +188,7 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 /*-----------------------------------------Home Page*/
@@ -330,7 +331,7 @@ body {
     padding-bottom: 0px;
     text-align: center;
     border-radius: 25px;
-}   
+}
 
 .lesson-button {
     margin-top: 5px;
@@ -356,6 +357,7 @@ body {
     margin-left: 15px;
     font-weight: 600;
 }
+
 .clinic-button {
     margin-top: 50px;
 }
@@ -376,10 +378,10 @@ body {
     margin-right: 400px;
     text-align: center;
     border-radius: 25px;
-}    
+}
 
 .card-body {
-   padding: 10px; 
+    padding: 10px;
 }
 
 /*-----------------------------------------Facilities*/
@@ -431,7 +433,7 @@ body {
     margin-top: 20px;
 }
 
-.map iframe{
+.map iframe {
     margin-top: 10px;
     height: 300px;
     width: 500px;
@@ -441,7 +443,7 @@ body {
 .map p {
     margin-right: 251px;
     padding: 10px;
-    
+
 }
 
 /*-----------------------------------------Modal*/
@@ -467,9 +469,9 @@ body {
 }
 
 .modal-footer {
-  bottom:0px;
-  position:absolute;
-  width:100%;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
 }
 
 /*-----------------------------------------Footer*/
@@ -478,18 +480,27 @@ body {
     display: block;
 }
 
+.fab {
+    text-shadow: 2px 2px #080808;
+}
+
 #footer-details {
-    height: 70px;
+    height: 80px;
     width: 100%;
     text-align: center;
     bottom: 0;
     position: fixed;
 }
 
-
-.social-links {
-    font-size: 50px;
+#footer-details ul {
+    margin-bottom: 0px;
 }
 
-/*-----------------------------------------Media Queries*/
 
+.social-links {
+    font-size: 30px;
+
+}
+
+
+/*-----------------------------------------Media Queries*/
