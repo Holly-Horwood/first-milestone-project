@@ -80,6 +80,7 @@
                     <div class="modal-header">
                         <h5 class="modal-title">Book Here</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <h6>Close</h6>
           <span aria-hidden="true">&times;</span>
         </button>
                     </div>
@@ -91,24 +92,39 @@
                                     <form>
                                         <div class="form-group form-modal">
                                             <label for="name">Full Name</label>
-                                            <input type="text" class="form-control" id="formGroupNameInput" placeholder="">
+                                            <input type="text" class="form-control" id="formGroupNameInput" placeholder="Type your name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
                                         </div>
                                         <div class="form-group form-modal">
                                             <label for="email">Email Adress</label>
-                                            <input type="text" class="form-control" id="formGroupEmailInput" placeholder="">
+                                            <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Type your email here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type your email here...'">
                                         </div>
                                         <div class="form-group form-modal">
                                             <label for="number">Phone Number</label>
-                                            <input type="text" class="form-control" id="formGroupNumberInput" placeholder="">
-                                        </div>
-                                        <div class="message-box message-modal">
-                                            <label for="comment">Message</label>
-                                            <textarea class="form-control" rows="5" id="comment">Please let us know the date and time you would like to book and we will get back in contact with you to confirm.</textarea>
+                                            <input type="text" class="form-control" id="formGroupNumberInput" placeholder="Type your phone number here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type your number here...'">
                                         </div>
                                     </form>
                                 </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="row">
+                                        <div class="datepicker">
+                                            <form>
+                                                <label>Select date below:</label>
+                                                <input type="date" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="time-title">Select time below:</div>
+                                    <div class="row">
+                                        <select class="time">
+                                            <option value="09:00 am">09:00 am</option>
+                                            <option value="11:00 am">11:00 am</option>
+                                            <option value="01:00 pm">01:00 pm</option>
+                                            <option value="03:00 pm">03:00 pm</option>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-lg">Send</button>
+                                    <button type="button" class="btn btn-lg">Book</button>
                                 </div>
                             </div>
                         </div>
