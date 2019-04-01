@@ -128,11 +128,7 @@
     color: #696969;
 }
 
-.datepicker input {
-    color: #696969;
-}
-
-.time {
+.service,.time,.date {
     color: #696969;
 }
 
@@ -473,18 +469,28 @@ body {
 .form-modal {
     width: 200px;
     margin-left: 10px;
+} 
+
+.date-title {
+    margin-top: 10px;
 }
 
-.time-title {
+
+.time-title,.service-title {
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: -15px;
-}    
+}
+   
 
 .modal-footer {
     bottom: 0px;
-    position: absolute;
+    position: relative;
     width: 100%;
+}
+
+.modal-btn {
+    margin-right: 200px;
 }
 
 /*-----------------------------------------Footer*/
