@@ -107,13 +107,13 @@
     </div>
     <!--END OF FACILITIES CAROUSEL-->
     
-     <!--START OF MODAL-->
+    <!--START OF MODAL-->
     <div class="container container-modal">
         <div class="modal fade" id="book-modal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Book Here</h5>
+                        <h5 class="modal-title">Booking Form</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <h6>Close</h6>
           <span aria-hidden="true">&times;</span>
@@ -127,24 +127,34 @@
                                     <form>
                                         <div class="form-group form-modal">
                                             <label for="name">Full Name</label>
-                                            <input type="text" class="form-control" id="formGroupNameInput" placeholder="Type your name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
+                                            <input class="modal-placeholder" type="text" class="form-control" id="formGroupNameInput" placeholder="Type name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
                                         </div>
                                         <div class="form-group form-modal">
                                             <label for="email">Email Adress</label>
-                                            <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Type your email here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type your email here...'">
+                                            <input class="modal-placeholder" type="text" class="form-control" id="formGroupEmailInput" placeholder="Type email here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type email here...'">
                                         </div>
                                         <div class="form-group form-modal">
                                             <label for="number">Phone Number</label>
-                                            <input type="text" class="form-control" id="formGroupNumberInput" placeholder="Type your phone number here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type your number here...'">
+                                            <input class="modal-placeholder" type="text" class="form-control" id="formGroupNumberInput" placeholder="Type phone number here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type number here...'">
                                         </div>
                                     </form>
                                 </div>
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-md-6 col-sm-12 picker">
+                                    <div class="service-title">Select service below:</div>
+                                    <div class="row">
+                                        <select class="service">
+                                            <option value="1 Hour Trail Ride">1 Hour Trail Ride</option> hr
+                                            <option value="2 Hour Trail Ride">2 Hour Trail Ride</option>
+                                            <option value="Overnight Trail Ride">Overnight Trail Ride</option>
+                                            <option value="1 Hour Lesson">1 Hour Lesson</option>
+                                            <option value="1.5 Hours Lesson">1.5 Hours Lesson</option>
+                                        </select>
+                                    </div>
                                     <div class="row">
                                         <div class="datepicker">
                                             <form>
-                                                <label>Select date below:</label>
-                                                <input type="date" />
+                                                <label class="date-title">Select date below:</label>
+                                                <input type="date" class="date"/>
                                             </form>
                                         </div>
                                     </div>
@@ -159,7 +169,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-lg">Book</button>
+                                    <button type="button" class="btn btn-lg modal-btn">Book</button>
                                 </div>
                             </div>
                         </div>
@@ -169,8 +179,8 @@
         </div>
     </div>
     <!--END OF MODAL-->
-    
- <!--START OF FOOTER-->
+
+    <!--START OF FOOTER-->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-12 mx-auto">
@@ -211,7 +221,7 @@
         </div>
     </footer>
     <!--END OF FOOTER-->
-
+    
     <!--JAVASCRIPT-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
