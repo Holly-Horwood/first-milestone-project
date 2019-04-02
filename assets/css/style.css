@@ -333,6 +333,11 @@ body {
     width: 1000px;
 }
 
+.trail-btn {
+    margin-top: 5px;
+    margin-right:20px;
+}
+
 
 /*-----------------------------------------Lessons*/
 
@@ -344,13 +349,12 @@ body {
     border-radius: 25px;
 }
 
-.lesson-button {
+.lesson-btn {
     margin-top: 5px;
+    margin-right: 20px;
 }
 
-.trail-button {
-    margin-top: 5px;
-}
+
 
 .container-clinic {
     border-radius: 25px;
@@ -431,8 +435,8 @@ body {
     margin-left: 150px;
 }
 
-.message-box p {
-    font-size: 10px;
+.form-group p {
+    font-size: 12px;
 }
 
 #comment {
@@ -545,11 +549,10 @@ body {
 
 
     .navbar-toggler-icon { 
-        background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
         color: #fff;
     }
 
-    .container-about {
+    .article {
     color: #fff;
     }
     
@@ -559,6 +562,7 @@ body {
     min-width: 250px;
     min-height: 300px;
     }
+    
     
     .trail-button {
         margin-bottom: 5px;
