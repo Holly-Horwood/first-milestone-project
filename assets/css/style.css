@@ -13,12 +13,16 @@
     color: #fff;
 }
 
-.nav-link:hover {
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #fff;
     background-color: #61BF3F88;
 }
 
-.nav-link.highlight {
+.nav-item .current {
     color: #fff;
     background-color: #61BF3F88;
 }
@@ -164,16 +168,17 @@
 .nav-link {
     font-family: "quicksand", sans-serif;
     font-size: 20px;
-    color: #fff;
     padding: 20px;
 }
+
+
 
 .nav-link:hover {
     font-weight: 600;
     border-radius: 50%;
 }
 
-.nav-link.highlight {
+.nav-item .current {
     font-weight: 600;
     border-radius: 50%;
 }
@@ -216,11 +221,13 @@ body {
 .container-main-header h1 {
     font-size: 70px;
     font-family: "quicksand", sans-serif;
+    margin-bottom: 4px;
 }
 
 .container-main-header h4 {
     font-size: 40px;
     font-family: "quicksand", sans-serif;
+    margin-bottom: 2px;
 }
 
 .container-main-header h5 {
@@ -430,6 +437,10 @@ body {
     margin-left: 150px;
 }
 
+.contact-form {
+    margin-right: 0px;
+}
+
 .message-box {
     width: 600px;
     margin-left: 150px;
@@ -542,12 +553,18 @@ body {
         background-color: #999999;
     }
     
+    .nav-book {
+        margin-left: 110px;
+    }
+    
     .nav-link:hover {
     font-weight: 600;
     border-radius: 10px;
     }
 
-   
+   .container-main-header {
+       margin-bottom: 10px;
+   }
     
     .article {
     color: #fff;

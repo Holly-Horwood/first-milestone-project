@@ -42,15 +42,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="facilities.html">Facilities <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item highlight">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link current" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
         <!--END OF NAVBAR-->
 
         <!--START OF BOOK NOW BUTTON-->
-        <div class="book-btn">
+        <div class="book-btn nav-book">
             <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#book-modal">Book Now!</button>
         </div>
     </nav>
@@ -64,25 +64,25 @@
 
     <!--START OF CONTACT FORM-->
     <div class="container-contact">
-        <div class="row">
+        <div class="row contact-form">
             <div class="col-md-6 col-sm-12">
                 <form>
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" class="form-control" id="formGroupNameInput" placeholder="enter name here">
+                        <input type="text" class="form-control" id="formGroupNameInput" placeholder="Type name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
                     </div>
                     <div class="form-group">
                         <label for="email">Email Adress</label>
-                        <input type="text" class="form-control" id="formGroupEmailInput" placeholder="enter email here">
+                        <input type="text" class="form-control" id="formGroupEmailInput" placeholder="Type email here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type email here...'">
                     </div>
                     <div class="form-group">
                         <label for="number">Phone Number</label>
-                        <input type="text" class="form-control" id="formGroupNumberInput" placeholder="enter phone number here">
+                        <input type="text" class="form-control" id="formGroupNumberInput" placeholder="Type number here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type number here...'">
                         <p><i>We will never share your details with anyone.</i></p>
                     </div>
                     <div class="message-box">
                     <label for="comment">Message</label>
-                      <textarea class="form-control" rows="5" id="comment" placeholder="your message here"></textarea>
+                      <textarea class="form-control" rows="5" id="comment" placeholder="Type message here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type message here...'"></textarea>
                       </div>
                       <div class="send-btn">
             <button type="button" class="btn btn-lg send-button">Send</button>
