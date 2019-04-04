@@ -543,15 +543,16 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
+/*Tablets and desktop*/
 @media (min-width: 767px) {
     
     .bottom-btn {
         display: none;
     }
+
+}    
     
-}
-
-
+    /*mobiles*/
 @media (max-width: 767px) {
 
     body {
@@ -693,8 +694,37 @@ body {
     }
     
    .modal-header {
-    margin-left: 60px;
+        margin-left: 60px;
     }
     
+    .form-modal {
+        margin-left: 5px;
+    } 
+
+    .time-title,.service-title,.date {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
     
-}    
+    .date-title {
+        margin-left: 5px;
+    }
+    
+    select.time,.service {
+        margin-left: 20px;
+    }
+
+    .picker {
+        margin-top: 0px;
+    }
+    
+    .modal-btn {
+        margin-right: 110px;
+    }
+
+}   
+
+
+
+
