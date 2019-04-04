@@ -77,7 +77,10 @@ The Lessons page also has a link at the bottom of the page to a separate PDF tha
 
 ##### Balsamic Mockups
 
-[assets/wireframes/wireframes.readme.docx]
+![balsamic mockup1](assets/wireframes/balsamic1.PNG)
+![balsamic mockup2](assets/wireframes/balsamic2.PNG)
+![balsamic mockup3](assets/wireframes/balsamic3.PNG)
+![balsamic mockup4](assets/wireframes/balsamic4.PNG)
 
 ---
 

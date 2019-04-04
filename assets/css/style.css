@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/*-----------------------------------------Colours*/
+/*------------------------------------------------------Colours*/
 
 .container-main-header {
     color: #fff;
@@ -157,7 +157,7 @@
 }
 
 
-/*-----------------------------------------Navbar*/
+/*------------------------------------------------------Navbar*/
 
 .navbar-brand {
     max-height: 80px;
@@ -183,12 +183,13 @@
     border-radius: 50%;
 }
 
+/*--------------------------Booking Button*/
 
 .btn {
     margin-right: 50px;
 }
 
-/*-----------------------------------------General*/
+/*------------------------------------------------------General*/
 
 body {
     background-image: url(../images/wild-horses.jpg);
@@ -210,7 +211,7 @@ body {
     font-size: 40px;
 }
 
-/*-----------------------------------------Home Page*/
+/*------------------------------------------------------Home Page*/
 
 .container-main-header {
     text-align: center;
@@ -235,8 +236,6 @@ body {
     font-family: "quicksand", sans-serif;
 }
 
-/*-----------------------------------------Quote*/
-
 .quote {
     text-align: right;
     margin-right: 40px;
@@ -248,7 +247,7 @@ body {
 }
 
 
-/*-----------------------------------------About Page*/
+/*------------------------------------------------------About Page*/
 
 .container-about {
     padding: 10px;
@@ -281,7 +280,7 @@ body {
 }
 
 
-/*-----------------------------------------Horses Page*/
+/*-----------------------------------------------------Horses Page*/
 
 #carousel-horse-captions .carousel-inner img {
     max-width: 450px;
@@ -307,7 +306,7 @@ body {
 
 
 
-/*-----------------------------------------Trail Rides*/
+/*-----------------------------------------------------Trail Rides*/
 
 .container-trailride {
     margin-bottom: 10px;
@@ -346,7 +345,7 @@ body {
 }
 
 
-/*-----------------------------------------Lessons*/
+/*------------------------------------------------------Lessons*/
 
 .container-lessons {
     margin-bottom: 10px;
@@ -406,7 +405,7 @@ body {
     padding: 10px;
 }
 
-/*-----------------------------------------Facilities*/
+/*------------------------------------------------------Facilities*/
 
 #carousel-facilities-captions .carousel-inner img {
     max-width: 450px;
@@ -430,7 +429,7 @@ body {
     width: 310px;
 }
 
-/*-----------------------------------------Contact*/
+/*------------------------------------------------------Contact*/
 
 .form-group {
     width: 600px;
@@ -472,7 +471,7 @@ body {
 
 }
 
-/*-----------------------------------------Modal*/
+/*------------------------------------------------------Modal*/
 
 .modal-content {
     text-align: left;
@@ -515,7 +514,7 @@ body {
     margin-right: 195px;
 }
 
-/*-----------------------------------------Footer*/
+/*------------------------------------------------------Footer*/
 
 .list-block-item {
     display: block;
@@ -544,7 +543,7 @@ body {
 }
 
 
-/*-----------------------------------------Media Queries*/
+/*------------------------------------------------------Media Queries*/
 
 @media (max-width: 767px) {
 
