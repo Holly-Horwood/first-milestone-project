@@ -171,8 +171,6 @@
     padding: 20px;
 }
 
-
-
 .nav-link:hover {
     font-weight: 600;
     border-radius: 50%;
@@ -545,6 +543,15 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
+@media (min-width: 767px) {
+    
+    .bottom-btn {
+        display: none;
+    }
+    
+}
+
+
 @media (max-width: 767px) {
 
     body {
@@ -556,17 +563,59 @@ body {
         margin-left: 110px;
     }
     
+    .navbar-brand {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
     .nav-link:hover {
-    font-weight: 600;
-    border-radius: 10px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .nav-item .current {
+        display: none;
+    }
+    
+    .nav-book {
+        display: none;
+    }
+    
+    .bottom-btn {
+        margin-left: 120px;
+        margin-top: 20px;
+        width: 190px;
+        color: #fff;
+        position: absolute;
     }
 
    .container-main-header {
        margin-bottom: 10px;
    }
+   
+   .container-main-header h1 {
+       font-size: 50px;
+   }
+   
+   .container-main-header h3 {
+       font-size: 30px;
+   }
+   
+   .quote {
+       margin-top: 30px;
+   }
+   
+   .embed-responsive-16by9 {
+       height: 150px;
+   }
+    
+    .container-about{
+        height: 330px;
+    }
     
     .article {
-    color: #fff;
+        color: #fff;
+        margin-bottom: 100px;
     }
     
     #carousel-horse-captions .carousel-inner img {
@@ -574,6 +623,10 @@ body {
     max-height: 300px;
     min-width: 250px;
     min-height: 300px;
+    }
+    
+    .trail-carousel {
+        margin-bottom: 100px;
     }
     
     
@@ -600,6 +653,7 @@ body {
     .card {
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 100px;
     }
     
     .wawe-btn {
@@ -615,19 +669,32 @@ body {
     
     .form-group {
         margin-left: 10px;
-        width: 380px;
+        width: 100%;
     }
     
     .message-box {
        margin-left: 10px;
-       width: 380px; 
+       width: 100%; 
     }
     
-    .map {
-        width: 300px;
+    .send-btn {
+        margin-left: 150px;
     }
     
-    #footer-details {
-        position: static !important;
-    }    
-}
+    .map iframe {
+        width: 100%;
+        margin-left: 5px;
+    }
+    
+    .map p {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-left: 5px;
+    }
+    
+   .modal-header {
+    margin-left: 60px;
+    }
+    
+    
+}    
