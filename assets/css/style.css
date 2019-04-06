@@ -160,14 +160,14 @@
 /*------------------------------------------------------Navbar*/
 
 .navbar-brand {
-    max-height: 80px;
-    max-width: 80px;
-    margin-left: 20px;
-}
+    max-height: 120px;
+    margin-left: 50px;
+    max-width: 120px;
+}    
 
 .nav-link {
     font-family: "quicksand", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -184,7 +184,9 @@
 /*--------------------------Booking Button*/
 
 .btn {
-    margin-right: 50px;
+    margin-right: 70px;
+    height: 70px;
+    font-size: 30px;
 }
 
 /*------------------------------------------------------General*/
@@ -197,16 +199,15 @@ body {
     font-family: "quicksand", sans-serif;
 }
 
-.logo {
-    max-height: 80px;
-    max-width: 80px;
-}
-
 .page-header {
     margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.container {
+    font-size: 20px;
 }
 
 /*------------------------------------------------------Home Page*/
@@ -214,43 +215,48 @@ body {
 .container-main-header {
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 270px;
+    margin-bottom: 350px;
 }
 
 .container-main-header h1 {
-    font-size: 70px;
+    font-size: 90px;
     font-family: "quicksand", sans-serif;
     margin-bottom: 4px;
 }
 
 .container-main-header h4 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: "quicksand", sans-serif;
     margin-bottom: 2px;
 }
 
 .container-main-header h5 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "quicksand", sans-serif;
 }
 
 .quote {
     text-align: right;
     margin-right: 40px;
-    margin-bottom: 30px;
+}
+
+.quote h5 {
+    font-size: 30px;
 }
 
 .quote h6 {
-    margin-right: 160px;
+    margin-right: 220px;
+    font-size: 25px;
 }
 
 
 /*------------------------------------------------------About Page*/
 
 .container-about {
+    margin-bottom: 0px;
+    height: 525px;
+    width: 1400px;
     padding: 10px;
-    margin-bottom: 20px;
-    height: 427px;
 }
 
 .article {
@@ -281,10 +287,10 @@ body {
 /*-----------------------------------------------------Horses Page*/
 
 #carousel-horse-captions .carousel-inner img {
-    max-width: 450px;
-    max-height: 450px;
-    min-width: 450px;
-    min-height: 450px;
+    max-width: 600px;
+    max-height: 600px;
+    min-width: 600px;
+    min-height: 600px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -299,10 +305,8 @@ body {
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
-    width: 310px;
+    width: 300px;
 }
-
-
 
 /*-----------------------------------------------------Trail Rides*/
 
@@ -315,10 +319,10 @@ body {
 }
 
 #carousel-trail-captions .carousel-inner img {
-    max-width: 220px;
-    max-height: 220px;
-    min-width: 220px;
-    min-height: 220px;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 400px;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -523,7 +527,7 @@ body {
 }
 
 #footer-details {
-    height: 80px;
+    height: 100px;
     width: 100%;
     text-align: center;
     bottom: 0;
@@ -536,8 +540,12 @@ body {
 
 
 .social-links {
-    font-size: 30px;
+    font-size: 40px;
 
+}
+
+.copyright p {
+    font-size: 20px;
 }
 
 
@@ -549,8 +557,12 @@ body {
     .bottom-btn {
         display: none;
     }
-} 
+ 
+
+@media (min-width: 1200px) {
+    .container {
+    max-width: 1400px;
+    }
 
 
-
-
+}
