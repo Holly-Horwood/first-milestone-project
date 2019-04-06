@@ -543,16 +543,50 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
-/*Tablets and desktop*/
+/*desktop*/
 @media (min-width: 767px) {
     
     .bottom-btn {
         display: none;
     }
+    
+    
+
+} 
+
+/*tablet*/
+@media (max-width: 1024px) {
+    
+    .bottom-btn {
+        display: none;
+    }
+    
+    .form-group {
+    width: 400px;
+    margin-left: 50px;
+    }
+    
+    #comment {
+    margin-left: -95px;
+    width: 400px;
+    }
+    
+    .map iframe {
+    width: 450px;
+    height: 250px;
+    }
+    
+    .map p {
+    width: 450px;
+    }
+    
+    .send-btn {
+    margin-left: 450px;
+    }
 
 }    
     
-    /*mobiles*/
+/*mobiles*/
 @media (max-width: 767px) {
 
     body {
@@ -684,13 +718,13 @@ body {
     
     .map iframe {
         width: 100%;
-        margin-left: 5px;
+        margin-left: 7px;
     }
     
     .map p {
         width: 100%;
         margin-bottom: 100px;
-        margin-left: 5px;
+        margin-left: 7px;
     }
     
    .modal-header {
@@ -721,7 +755,7 @@ body {
     
     .modal-btn {
         margin-right: 110px;
-    }
+    } 
 
 }   
 

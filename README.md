@@ -39,20 +39,20 @@ This site was designed for the general public looking to trail ride and for all 
 An increase in profits due to brand awareness and ease of use for new and existing customers to find the business online and book lessons and trail rides.  It is also intended to showcase the property and the facilities available.
 
 *Navigation*
-It is essential that the site is easy to navigate on different sized devices and that it was obvious how to make a booking.  I decided to use relatively neutral colours for the content but with an eye-catching bright green to highlight key areas such as navigation, buttons and deals.  I chose the colour green as this is a calming colour and represents nature, so I thought it would be a good choice as potential customers would be looking to have a relaxing time in nature with horses.  I wanted a more traditional looking website with separate linked pages rather than the scroll down effect as I believe this is easier for people to navigate. 
+It is essential that the site is easy to navigate on different sized devices and that it is obvious how to make a booking.  I decided to use relatively neutral colours for the content but with an eye-catching bright green to highlight key areas such as navigation, buttons and deals.  I chose the colour green as this is a calming colour and represents nature, so I thought it would be a good choice as potential customers would be looking to have a relaxing time in nature with horses.  I wanted a more traditional looking website with separate linked pages rather than the scroll down effect as I believe this is easier for people to navigate as it's not always obivious that ones needs to scroll on scroll down sites. 
 
 *Features:*  
 Each page has an identical header with a logo on the left and I have also included a call to action booking button on the right, so it is always obvious how to book.
-Each page also has footer with social links to Facebook, Instagram, twitter and YouTube as well as copyright information.
+Each page also has a footer with social links to Facebook, Instagram, twitter and YouTube as well as copyright information.
 Each page has a centred white header.
-All call to action/book now buttons links to a modal where the customer can fill out there details, select the service they would like and book a date and time.
+All call to action/book now buttons link to a modal where the customer can fill out there details, select the service they would like and book a date and time.
 
 
 *Home Page:*
-This page has a simple header for the business ands subheading stating where the business is and what it does.  There is also a quote on the bottom right from Winston Churchill.  I have a fixed background image of a small herd of horses running through the woods that is fixed to the background for all pages, however I have removed this for smaller devices as it looked to busy and have replaced it with a simple cleaner grey background.
+This page has a simple header for the business and subheadings stating where the business is located and what it does.  There is also a quote on the bottom right from Winston Churchill.  I have a fixed background image of a small herd of horses running through the woods that is fixed to the background for all pages, however I have removed this for smaller devices as it looked to busy and have replaced it with a simple cleaner grey background.
 
 *About:*
-This page gives an overview of the business as well as the two key services offered.  There are also two Youtube videos to the left of the overview text that show examples of the sport of Working Equitation.
+This page gives an overview of the business as well as the two key services offered.  There are also two Youtube videos alongside the overview text that show examples of the sport of Working Equitation.
 
 *Horses:*
 This page has a carousel with photos and the names of the horses that live on the farm.  I have used green again to highlight the carousel navigation on this page.
@@ -73,7 +73,7 @@ This page has a contact form on the left requesting name, phone number and email
 The site has separate pages and was designed so there was no need to scroll down on larger devices.
 There is a navigation bar at the top that displays all pages in a logical sequence of how somebody searching the site would likely want to view them and a book now button.
 Every page that shows a service also has additional call to action buttons that when clicked on will launch a modal where the customer can book a service.
-The Lessons page also has a link at the bottom of the page to a separate PDF that will open when clicked on.  The Contact page has an interactive google map.
+The Lessons page also has a link at the bottom of the page to a separate PDF that will open ina a separate tab when clicked on.  The Contact page has an interactive google map.
 
 ##### Balsamic Mockups
 
@@ -83,6 +83,10 @@ The Lessons page also has a link at the bottom of the page to a separate PDF tha
 ![balsamic mockup4](assets/wireframes/balsamic4.PNG)
 
 ---
+
+##### Testing:
+
+This website was tested manulaly by myself as well as friends and family.  Each page was clicked through and each interactive part of each page was tested to ensure it was functional.
 
 ##### Deployment:
 
