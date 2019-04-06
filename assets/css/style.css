@@ -346,7 +346,7 @@ body {
 /*------------------------------------------------------Lessons*/
 
 .container-lessons {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     padding-bottom: 0px;
     text-align: center;
@@ -356,13 +356,15 @@ body {
 .lesson-btn {
     margin-top: 5px;
     margin-right: 20px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
 }
-
-
 
 .container-clinic {
     border-radius: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .clinic-info {
@@ -373,7 +375,6 @@ body {
     width: 100%;
     position: relative;
     margin-top: -30%;
-    margin-left: 15px;
     font-weight: 600;
 }
 
@@ -387,20 +388,34 @@ body {
 }
 
 .clinic-btn {
-    margin-left: 30px;
+    margin-left: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.clinic-img img {
+    height: 215px;
 }
 
 .card {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 550px;
+    margin-right: 550px;
     text-align: center;
     border-radius: 25px;
+    font-size: 20px;
 }
 
 .card-body {
     padding: 10px;
+    margin-left: 60px;
+}    
+
+.wawe-btn {
+    height: 50px;
+    text-align: center;
 }
 
 /*------------------------------------------------------Facilities*/
@@ -430,8 +445,9 @@ body {
 /*------------------------------------------------------Contact*/
 
 .form-group {
-    width: 600px;
-    margin-left: 150px;
+    width: 700px;
+    margin-left: 250px;
+    font-size: 20px;
 }
 
 .contact-form {
@@ -439,8 +455,9 @@ body {
 }
 
 .message-box {
-    width: 600px;
-    margin-left: 150px;
+    width: 700px;
+    margin-left: 250px;
+    font-size: 20px;
 }
 
 .form-group p {
@@ -448,25 +465,28 @@ body {
 }
 
 #comment {
-    height: 80px;
+    height: 150px;
 }
 
 .send-btn {
-    margin-left: 400px;
+    margin-left: 500px;
     margin-top: 20px;
 }
 
 .map iframe {
     margin-top: 10px;
-    height: 300px;
-    width: 500px;
+    height: 350px;
+    width: 600px;
     filter: sepia(50%);
+    margin-left: 20px;
 }
 
 .map p {
     margin-right: 251px;
     padding: 10px;
-
+    font-size: 20px;
+    width: 600px;
+    margin-left: 20px;
 }
 
 /*------------------------------------------------------Modal*/
