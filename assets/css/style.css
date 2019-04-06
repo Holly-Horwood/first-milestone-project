@@ -319,10 +319,10 @@ body {
 }
 
 #carousel-trail-captions .carousel-inner img {
-    max-width: 400px;
-    max-height: 400px;
-    min-width: 400px;
-    min-height: 400px;
+    max-width: 320px;
+    max-height: 320px;
+    min-width: 320px;
+    min-height: 320px;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -334,16 +334,12 @@ body {
     border-radius: 100%;
 }
 
-
-#carousel-trail-captions.carousel-item h5 {
-    font-size: 30px;
-    font-weight: 600;
-    width: 1000px;
-}
-
 .trail-btn {
     margin-top: 5px;
     margin-right:20px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
