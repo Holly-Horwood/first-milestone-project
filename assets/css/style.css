@@ -305,7 +305,7 @@ body {
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
-    width: 300px;
+    width: 372px;
 }
 
 /*-----------------------------------------------------Trail Rides*/
@@ -410,10 +410,10 @@ body {
 /*------------------------------------------------------Facilities*/
 
 #carousel-facilities-captions .carousel-inner img {
-    max-width: 450px;
-    max-height: 450px;
-    min-width: 450px;
-    min-height: 450px;
+    max-width: 600px;
+    max-height: 600px;
+    min-width: 600px;
+    min-height: 600px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -428,7 +428,7 @@ body {
 .carousel-item h5 {
     font-size: 30px;
     font-weight: 600;
-    width: 310px;
+    width: 372px;
 }
 
 /*------------------------------------------------------Contact*/
