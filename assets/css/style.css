@@ -592,6 +592,7 @@ body {
     body {
         background-image: none;
         background-color: #999999;
+        padding-bottom: 90px;
     }
     
     .navbar-brand {
@@ -601,12 +602,21 @@ body {
         height: 100px;
     }
     
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
     .nav-item .current {
         display: none;
     }
     
     .nav-book {
         display: none;
+    }
+    
+    .top-btn {
+        position: fixed;
     }
     
     .page-header {
@@ -626,18 +636,7 @@ body {
         margin-top: 30px;
         width: 140px;
         color: #fff;
-        position: absolute;
     }
-    
-   .navbar-dark .navbar-nav .nav-link {
-    font-size: 20px;
-    }
-    
-    .nav-link:hover {
-        font-weight: 600;
-        border-radius: 10px;
-    }
-
     
     .container-main-header h1 {
     font-size: 70px;
@@ -674,18 +673,56 @@ body {
         margin-bottom: 100px;
     }
     
-    .card {
-    margin-left: 10px;
-    margin-right: 10px;
+    .trail-btn {
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }   
+    
+    .lesson-btn {
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }  
+    
+    .text-wrapper {
+    margin-top: -100px;
     }
+    
+    .clinic-info h5 {
+    margin-top: 40px;
+    }
+    
+    .clinic-btn {
+        margin-left: 90px;
+    }
+    
+    .clinic-button {
+        margin-top: 10px;
+    }
+    
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #carousel-horse-captions .carousel-inner img {
+        max-width: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+
     
     #carousel-facilities-captions .carousel-inner img {
-    width: 100%;
+        max-width: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        min-height: 300px;
     }
-    
     .form-group {
-    width: 390px;
-    margin-left: 10px;
+        width: 390px;
+        margin-left: 10px;
     }
     
     .message-box {
@@ -702,6 +739,12 @@ body {
     margin-right: 10px;
     width: 390px;
     margin-left: 10px;
+    }
+    
+    .send-btn {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
     
     #footer-details {
