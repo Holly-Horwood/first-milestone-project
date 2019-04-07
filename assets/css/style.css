@@ -569,25 +569,212 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
-/*medium desktop*/
-@media (min-width: 767px) {
+/*medium tablets*/
+@media only screen and (max-width: 1199px) {
     
-    .bottom-btn {
+    .top-btn {
         display: none;
+    }
+    
+    .navbar-brand {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    .nav-item .current {
+        display: none;
+    }
+    
+    .nav-book {
+        display: none;
+    }
+    
+    .top-btn {
+        position: fixed;
+    }
+    
+    .page-header {
+        font-size: 30px;
+    }
+    
+    .container {
+        font-size: 20px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    .btn {
+        height: 50px;
+        font-size: 20px;
+        margin-left: 150px;
+        margin-top: 30px;
+        width: 140px;
+        color: #fff;
+    }
+    
+    .container-main-header h1 {
+    font-size: 70px;
+    }
+
+    .container-main-header h5 {
+    font-size: 30px;
+    }
+    
+    .quote {
+       margin-top: 30px;
+    } 
+    
+    .quote h5 {
+    font-size: 20px;
+    text-align: center;
+    }
+    
+    .quote h6 {
+    margin-right: 80px;
+    font-size: 20px;
+    }
+    
+    .embed-responsive-16by9 {
+       height: 150px;
+   }
+    
+    .container-about{
+        height: 330px;
+    }
+    
+    .article {
+        color: #fff;
+        margin-bottom: 100px;
+    }
+    
+    .trail-btn {
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }   
+    
+    .lesson-btn {
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }  
+    
+    .text-wrapper {
+    margin-top: -100px;
+    }
+    
+    .clinic-info h5 {
+    margin-top: 40px;
+    }
+    
+    .clinic-btn {
+        margin-left: 90px;
+    }
+    
+    .clinic-button {
+        margin-top: 10px;
+    }
+    
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .card-body {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .wawe-btn {
+        margin-left: 70px;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    
+    #carousel-horse-captions .carousel-inner img {
+        max-width: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    
+    #carousel-facilities-captions .carousel-inner img {
+        max-width: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+    .form-group {
+        width: 390px;
+        margin-left: 10px;
+    }
+    
+    .message-box {
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .map iframe {
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .map p {
+    margin-right: 10px;
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .send-btn {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .modal-placeholder {
+        width: 90%;
+    }
+    
+    .modal-header {
+        margin-left: 100px;
+    }
+    
+    .modal-button {
+        margin-right: 110px;
+    }
+    
+    #footer-details {
+    height: 80px;
+    }
+    
+    .social-links {
+    font-size: 30px;
     }
     
 }    
  
 /*large desktop*/
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .container {
     max-width: 1400px;
+    }
+    
+    .top-btn {
+        display: none;
     }
     
 }    
 
 /*mobile*/
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
     body {
         background-image: none;
@@ -706,6 +893,17 @@ body {
         margin-right: 10px;
     }
     
+    .card-body {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .wawe-btn {
+        margin-left: 70px;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    
     #carousel-horse-captions .carousel-inner img {
         max-width: 300px;
         max-height: 300px;
@@ -745,6 +943,18 @@ body {
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    }
+    
+    .modal-placeholder {
+        width: 90%;
+    }
+    
+    .modal-header {
+        margin-left: 100px;
+    }
+    
+    .modal-button {
+        margin-right: 110px;
     }
     
     #footer-details {
