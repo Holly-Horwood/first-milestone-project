@@ -29,8 +29,6 @@
 
 .btn {
     background-color: #61BF3F;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
     box-shadow: 10px 10px 5px 0px rgba(10, 1, 10, 0.23);
     color: #fff;
 }
@@ -371,6 +369,10 @@ body {
     padding: 10px;
 }
 
+.clinic-info h5 {
+    font-weight: 600;
+}
+
 .text-wrapper {
     width: 100%;
     position: relative;
@@ -567,18 +569,149 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
-/*desktop*/
+/*medium desktop*/
 @media (min-width: 767px) {
     
     .bottom-btn {
         display: none;
     }
+    
+}    
  
-
+/*large desktop*/
 @media (min-width: 1200px) {
     .container {
     max-width: 1400px;
     }
+    
+}    
+
+/*mobile*/
+@media (max-width: 767px) {
+
+    body {
+        background-image: none;
+        background-color: #999999;
+    }
+    
+    .navbar-brand {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .nav-item .current {
+        display: none;
+    }
+    
+    .nav-book {
+        display: none;
+    }
+    
+    .page-header {
+        font-size: 30px;
+    }
+    
+    .container {
+        font-size: 20px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    .btn {
+        height: 50px;
+        font-size: 20px;
+        margin-left: 150px;
+        margin-top: 30px;
+        width: 140px;
+        color: #fff;
+        position: absolute;
+    }
+    
+   .navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+    }
+    
+    .nav-link:hover {
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    
+    .container-main-header h1 {
+    font-size: 70px;
+    }
+
+    .container-main-header h5 {
+    font-size: 30px;
+    }
+    
+    .quote {
+       margin-top: 30px;
+    } 
+    
+    .quote h5 {
+    font-size: 20px;
+    text-align: center;
+    }
+    
+    .quote h6 {
+    margin-right: 80px;
+    font-size: 20px;
+    }
+    
+    .embed-responsive-16by9 {
+       height: 150px;
+   }
+    
+    .container-about{
+        height: 330px;
+    }
+    
+    .article {
+        color: #fff;
+        margin-bottom: 100px;
+    }
+    
+    .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    #carousel-facilities-captions .carousel-inner img {
+    width: 100%;
+    }
+    
+    .form-group {
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .message-box {
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .map iframe {
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    .map p {
+    margin-right: 10px;
+    width: 390px;
+    margin-left: 10px;
+    }
+    
+    #footer-details {
+    height: 80px;
+    }
+    
+    .social-links {
+    font-size: 30px;
+    }
+    
+}    
 
 
-}
