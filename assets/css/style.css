@@ -569,212 +569,160 @@ body {
 
 /*------------------------------------------------------Media Queries*/
 
-/*medium tablets*/
-@media only screen and (max-width: 1199px) {
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    
     
     .top-btn {
         display: none;
-    }
-    
-    .navbar-brand {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .navbar-dark .navbar-nav .nav-link {
-        font-size: 20px;
-        border-radius: 10px;
-    }
-    
-    .nav-item .current {
-        display: none;
-    }
-    
-    .nav-book {
-        display: none;
-    }
-    
-    .top-btn {
-        position: fixed;
     }
     
     .page-header {
-        font-size: 30px;
+        font-size: 3em;
+    }
+    
+    .page-title {
+        font-size: 1em;
     }
     
     .container {
-        font-size: 20px;
-        margin-bottom: 50px;
+        font-size: 1em;
+        margin-bottom: 7%;
         width: 100%;
     }
     
     .btn {
         height: 50px;
         font-size: 20px;
-        margin-left: 150px;
+        margin-left: 33%;
         margin-top: 30px;
         width: 140px;
         color: #fff;
     }
     
+    /*Home*/
     .container-main-header h1 {
-    font-size: 70px;
-    }
-
-    .container-main-header h5 {
-    font-size: 30px;
+        font-size: 3em;
+        margin-bottom: 4%;
     }
     
-    .quote {
-       margin-top: 30px;
-    } 
+    .container-main-header h4 {
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+    
+    .container-main-header h5 {
+        font-size: 1.5em;
+    }
     
     .quote h5 {
-    font-size: 20px;
-    text-align: center;
+        font-size: 1.5em;
     }
     
     .quote h6 {
-    margin-right: 80px;
-    font-size: 20px;
+        font-size: 1em;
     }
     
-    .embed-responsive-16by9 {
-       height: 150px;
-   }
+    /*About*/
     
-    .container-about{
-        height: 330px;
+    /*Horses*/
+    
+    #carousel-horse-captions .carousel-inner img {
+        min-height: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 80%;
     }
     
-    .article {
-        color: #fff;
-        margin-bottom: 100px;
-    }
+    /*Trail Rides*/
     
     .trail-btn {
-        margin-right: 0px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }   
+        margin-bottom: 3%;
+        margin-left: 10%;
+    }
+    
+    
+    /*Lessons*/
     
     .lesson-btn {
-        margin-right: 0px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }  
-    
-    .text-wrapper {
-    margin-top: -100px;
+        margin-bottom: 3%;
+        margin-left: 10%;
     }
     
-    .clinic-info h5 {
-    margin-top: 40px;
-    }
-    
-    .clinic-btn {
-        margin-left: 90px;
+    .clinic-info {
+        margin-top: 10%;
     }
     
     .clinic-button {
-        margin-top: 10px;
+        margin-top: 0%;
     }
-    
     .card {
-        margin-left: 10px;
-        margin-right: 10px;
+        min-height: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 0%;
     }
     
-    .card-body {
-        width: 100%;
-        margin-left: 0px;
-    }
-    
-    .wawe-btn {
-        margin-left: 70px;
-        width: 150px;
-        margin-bottom: 20px;
-    }
-    
-    #carousel-horse-captions .carousel-inner img {
-        max-width: 300px;
-        max-height: 300px;
-        min-width: 300px;
-        min-height: 300px;
-    }
-
-    
+     /*Facilities*/
+     
     #carousel-facilities-captions .carousel-inner img {
-        max-width: 300px;
-        max-height: 300px;
-        min-width: 300px;
-        min-height: 300px;
-    }
+        min-height: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 80%;
+    } 
+     
+    /*Contact*/
+    
     .form-group {
-        width: 390px;
-        margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .message-box {
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .map iframe {
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .map p {
-    margin-right: 10px;
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .send-btn {
-    margin-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+    
+    /*Modal*/
     
     .modal-placeholder {
         width: 90%;
     }
     
-    .modal-header {
-        margin-left: 100px;
-    }
-    
-    .modal-button {
-        margin-right: 110px;
-    }
+    /*Footer*/
     
     #footer-details {
-    height: 80px;
+        height: 12%;
     }
     
     .social-links {
-    font-size: 30px;
+        font-size: 2em;
     }
     
-}    
+}      
  
-/*large desktop*/
-@media only screen and (min-width: 1200px) {
-    .container {
-    max-width: 1400px;
-    }
-    
-    .top-btn {
-        display: none;
-    }
-    
-}    
+   
 
 /*mobile*/
-@media only screen and (max-width: 767px) {
+@media (max-width: 576px) {
 
     body {
         background-image: none;
@@ -807,162 +755,143 @@ body {
     }
     
     .page-header {
-        font-size: 30px;
+        font-size: 3em;
+    }
+    
+    .page-title {
+        font-size: 1em;
     }
     
     .container {
-        font-size: 20px;
-        margin-bottom: 50px;
+        font-size: 1em;
+        margin-bottom: 7%;
         width: 100%;
     }
     
     .btn {
         height: 50px;
         font-size: 20px;
-        margin-left: 150px;
+        margin-left: 33%;
         margin-top: 30px;
         width: 140px;
         color: #fff;
     }
     
+    /*Home*/
     .container-main-header h1 {
-    font-size: 70px;
-    }
-
-    .container-main-header h5 {
-    font-size: 30px;
+        font-size: 3em;
+        margin-bottom: 4%;
     }
     
-    .quote {
-       margin-top: 30px;
-    } 
+    .container-main-header h4 {
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+    
+    .container-main-header h5 {
+        font-size: 1.5em;
+    }
     
     .quote h5 {
-    font-size: 20px;
-    text-align: center;
+        font-size: 1.5em;
     }
     
     .quote h6 {
-    margin-right: 80px;
-    font-size: 20px;
+        font-size: 1em;
     }
     
-    .embed-responsive-16by9 {
-       height: 150px;
-   }
+    /*About*/
     
-    .container-about{
-        height: 330px;
+    /*Horses*/
+    
+    #carousel-horse-captions .carousel-inner img {
+        min-height: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 80%;
     }
     
-    .article {
-        color: #fff;
-        margin-bottom: 100px;
-    }
+    /*Trail Rides*/
     
     .trail-btn {
-        margin-right: 0px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }   
+        margin-bottom: 3%;
+        margin-left: 10%;
+    }
+    
+    
+    /*Lessons*/
     
     .lesson-btn {
-        margin-right: 0px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }  
-    
-    .text-wrapper {
-    margin-top: -100px;
+        margin-bottom: 3%;
+        margin-left: 10%;
     }
     
-    .clinic-info h5 {
-    margin-top: 40px;
-    }
-    
-    .clinic-btn {
-        margin-left: 90px;
+    .clinic-info {
+        margin-top: 10%;
     }
     
     .clinic-button {
-        margin-top: 10px;
+        margin-top: 0%;
     }
-    
     .card {
-        margin-left: 10px;
-        margin-right: 10px;
+        min-height: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 0%;
     }
     
-    .card-body {
-        width: 100%;
-        margin-left: 0px;
-    }
-    
-    .wawe-btn {
-        margin-left: 70px;
-        width: 150px;
-        margin-bottom: 20px;
-    }
-    
-    #carousel-horse-captions .carousel-inner img {
-        max-width: 300px;
-        max-height: 300px;
-        min-width: 300px;
-        min-height: 300px;
-    }
-
-    
+     /*Facilities*/
+     
     #carousel-facilities-captions .carousel-inner img {
-        max-width: 300px;
-        max-height: 300px;
-        min-width: 300px;
-        min-height: 300px;
-    }
+        min-height: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 80%;
+    } 
+     
+    /*Contact*/
+    
     .form-group {
-        width: 390px;
-        margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .message-box {
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .map iframe {
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .map p {
-    margin-right: 10px;
-    width: 390px;
-    margin-left: 10px;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .send-btn {
-    margin-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+    
+    /*Modal*/
     
     .modal-placeholder {
         width: 90%;
     }
     
-    .modal-header {
-        margin-left: 100px;
-    }
-    
-    .modal-button {
-        margin-right: 110px;
-    }
+    /*Footer*/
     
     #footer-details {
-    height: 80px;
+        height: 12%;
     }
     
     .social-links {
-    font-size: 30px;
+        font-size: 2em;
     }
     
 }    
