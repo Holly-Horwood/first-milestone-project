@@ -86,7 +86,9 @@ The Lessons page also has a link at the bottom of the page to a separate PDF tha
 
 ##### Testing:
 
-This website was tested manulaly by myself as well as friends and family.  Each page was clicked through and each interactive part of each page was tested to ensure it was functional.
+This website was tested manually by myself as well as friends and family.  Each page was clicked through and each interactive part of each page was tested to ensure it was functional.
+
+---
 
 ##### Deployment:
 
