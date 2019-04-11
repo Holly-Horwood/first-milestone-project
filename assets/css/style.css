@@ -13,7 +13,7 @@ body {
     color: #fff;
 }
 
-.top-btn {
+.top-btn, .send-button {
     background-color: #61BF3F;
     color: #fff;
 }
@@ -34,15 +34,15 @@ body {
     color: #fff;
 }
 
-#carousel-horse-captions {
+#carousel-horse-captions, #carousel-facilities-captions  {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
-#carousel-horse-captions li {
+#carousel-horse-captions, #carousel-facilities-captions li {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
-#carousel-horse-captions li:hover {
+#carousel-horse-captions, #carousel-facilities-captions li:hover {
     background-color: #61BF3F;
 }
 
@@ -59,6 +59,14 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
+.container-contact {
+    color: #fff;
+}
+
+.map p {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #696969;
+}
 
 .social-links i {
     color: #fff;
@@ -213,10 +221,6 @@ body {
 
 /*----------------------------------------------HORSES*/
 
-.horse-carousel {
-    margin-bottom: 30%;
-}
-
 #carousel-horse-captions .carousel-inner img {
     margin: 0 auto;
     padding-top: 2%;
@@ -234,7 +238,7 @@ body {
 }
 
 .carousel-item h5 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
     width: 100%;
 }
@@ -242,7 +246,17 @@ body {
 
 /*----------------------------------------------TRAIL RIDES*/
 
+#carousel-facilities-captions .carousel-inner img {
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 75%;
+}
 
+#carousel-facilities-captions li {
+    width: 10%;
+    height: 10%;
+}
 
 /*----------------------------------------------LESSONS*/
 
@@ -253,7 +267,42 @@ body {
 
 /*----------------------------------------------CONTACT*/
 
+.form-group {
+    width: 95%;
+    font-size: 1rem;
+}
 
+.message-box {
+    width: 95%;
+    font-size: 1rem;
+}
+
+.form-group p {
+    font-size: 0.8rem;
+}
+
+#comment {
+    height: 20%;
+}
+
+.send-btn {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.map iframe {
+    margin-top: 5%;
+    height: 30%;
+    width: 95%;
+    filter: sepia(50%);
+}
+
+.map p {
+    padding: 2%;
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 35%;
+}
 
 /*----------------------------------------------FOOTER*/
 
