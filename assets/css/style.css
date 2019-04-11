@@ -13,9 +13,13 @@ body {
     color: #fff;
 }
 
-.top-btn, .send-button {
+.top-btn, .send-button, .lesson-btn, .clinic-btn {
     background-color: #61BF3F;
     color: #fff;
+}
+
+.btn {
+    background-color: #61BF3F;
 }
 
 .nav-link {
@@ -57,6 +61,16 @@ body {
 .carousel-item h5 {
     color: #696969;
     background-color: rgba(255, 255, 255, 0.90);
+}
+
+.text-wrapper {
+    background-color: #61BF3F80;
+    color: #fff;
+}
+
+.container-lessons, .container-clinic, .card {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #696969;
 }
 
 .container-contact {
@@ -246,6 +260,91 @@ body {
 
 /*----------------------------------------------TRAIL RIDES*/
 
+
+
+/*----------------------------------------------LESSONS*/
+
+.container-lessons {
+    margin-bottom: 5%;
+    padding: 2%;
+    padding-bottom: 0;
+    text-align: center;
+    border-radius: 5%;
+    width: 95%;
+}
+
+.text-center {
+    font-weight: 600;
+}
+
+.lesson-btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.container-clinic {
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 95%;
+}
+
+.clinic-info {
+    padding: 2%;
+}
+
+.clinic-info h5 {
+    font-weight: 600;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    font-weight: 600;
+}
+
+.clinic-button {
+    margin-top: 5%;
+}
+
+.clinic-button p {
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+.clinic-btn {
+    height: 50px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.clinic-img img {
+    height: 30%;
+}
+
+.card {
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 1em;
+    margin-bottom: 35%;
+    width: 95%;
+}
+
+.card-body {
+    padding: 12%;
+}    
+
+.wawe-btn {
+    height: 30%;
+    text-align: center;
+}
+
+
+/*----------------------------------------------FACILITIES*/
+
 #carousel-facilities-captions .carousel-inner img {
     margin: 0 auto;
     padding-top: 2%;
@@ -257,13 +356,6 @@ body {
     width: 10%;
     height: 10%;
 }
-
-/*----------------------------------------------LESSONS*/
-
-
-/*----------------------------------------------FACILITIES*/
-
-
 
 /*----------------------------------------------CONTACT*/
 
