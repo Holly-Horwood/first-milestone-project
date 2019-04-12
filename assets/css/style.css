@@ -13,7 +13,7 @@ body {
     color: #fff;
 }
 
-.top-btn, .send-button, .lesson-btn, .clinic-btn {
+.top-btn, .send-button, .lesson-btn, .trail-btn, .clinic-btn {
     background-color: #61BF3F;
     color: #fff;
 }
@@ -38,16 +38,16 @@ body {
     color: #fff;
 }
 
-#carousel-horse-captions, #carousel-facilities-captions  {
+#carousel-horse-captions, #carousel-facilities-captions, #carousel-trail-captions  {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
-#carousel-horse-captions, #carousel-facilities-captions li {
+#carousel-horse-captions, #carousel-facilities-captions, #carousel-trail-captions li {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
-#carousel-horse-captions, #carousel-facilities-captions li:hover {
-    background-color: #61BF3F;
+#carousel-horse-captions, #carousel-facilities-captions, #carousel-trail-captions li:hover {
+    background-color: rgba(255, 255, 255, 0.90);
 }
 
 .carousel-control-prev {
@@ -68,7 +68,7 @@ body {
     color: #fff;
 }
 
-.container-lessons, .container-clinic, .card {
+.container-lessons, .container-clinic, .container-trailride, .card {
     background-color: rgba(255, 255, 255, 0.90);
     color: #696969;
 }
@@ -257,10 +257,46 @@ body {
     width: 100%;
 }
 
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev {
+    width: 10%;
+}
 
 /*----------------------------------------------TRAIL RIDES*/
 
+.container-trailride {
+    margin-bottom: 5%;
+    padding: 2%;
+    padding-bottom: 0;
+    text-align: center;
+    border-radius: 5%;
+    width: 95%;
+}
 
+#carousel-trail-captions .carousel-inner {
+    margin-bottom: 35%;
+}
+
+#carousel-trail-captions .carousel-inner img {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#carousel-trail-captions .carousel-indicators li {
+    display:none;   
+}
+
+.trail-btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1em;
+    font-weight: 600;
+}
 
 /*----------------------------------------------LESSONS*/
 
