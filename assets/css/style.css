@@ -145,7 +145,7 @@ body {
 .container {
     width: 100%;
     padding: 2%;
-    margin-bottom: 35%;
+    margin-bottom: 5%;
 }
 
 
@@ -287,10 +287,6 @@ body {
     width: 95%;
 }
 
-#carousel-trail-captions .carousel-inner {
-    margin-bottom: 35%;
-}
-
 #carousel-trail-captions .carousel-inner img {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -363,7 +359,6 @@ body {
 }
 
 .clinic-btn {
-    height: 50px;
     font-size: 1em;
     font-weight: 600;
 }
@@ -377,7 +372,7 @@ body {
     text-align: center;
     border-radius: 25px;
     font-size: 1em;
-    margin-bottom: 35%;
+    margin-bottom: 5%;
     width: 95%;
 }
 
@@ -433,7 +428,6 @@ body {
 
 .map iframe {
     margin-top: 5%;
-    height: 30%;
     width: 95%;
     filter: sepia(50%);
 }
@@ -442,7 +436,6 @@ body {
     padding: 2%;
     font-size: 1rem;
     width: 95%;
-    margin-bottom: 35%;
     border-radius: 15px;
 }
 
@@ -496,29 +489,67 @@ body {
         font-size: 2rem;
     }
     
+    .navbar-brand {
+        max-height: 15%;
+        max-width: 15%;
+    }
+    
     .nav-link {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .container-main-header {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .container-main-header h1 {
+        margin-bottom: 0;
+    }
+
+    .container-main-header h4 {
+        margin-bottom: 0;
+        }
+
+    .container-main-header h5 {
+        margin-bottom: 0;
+    }
+    
+    .quote {
+        margin-top: 36%;
+    }
+    
+    .page-header {
+        font-size: 3rem;
+        margin-top: 0;
     }
     
     #carousel-facilities-captions, #carousel-horse-captions .carousel-inner img {
         margin: 0 auto;
         padding-top: 2%;
         padding-bottom: 2%;
-        width: 70%;
     }
     
     .clinic-img img {
         width: 100%;
+        margin-top: 20%;
+    }
+    
+    .clinic-button {
+        margin-top: 50%;
+    }
+    
+    .clinic-button p {
+        margin-top: 20%;
     }
     
     .card {
         width: 50%;
-        margin-bottom: 20%;
         margin-left: 25%;
     }
     
     .row {
-        margin-left: 0;
+        margin: 0;
     }
     
     .container-fluid {
@@ -527,6 +558,27 @@ body {
     
     #footer-details {
         position: relative;
+    }
+    
+}
+
+/*DESKTOP*/
+
+@media (min-width: 992px) {
+    
+    .top-btn {
+      float: right; 
+      margin-right: 5%;
+    }
+    
+    .navbar-brand {
+        max-height: 7%;
+        max-width: 7%;
+    }
+    
+    
+    #footer-details {
+        position: fixed;
     }
     
 }
