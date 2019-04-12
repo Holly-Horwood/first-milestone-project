@@ -22,12 +22,18 @@ body {
     background-color: #61BF3F;
 }
 
-.nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
+} 
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #61BF3F88;
 }
 
-.nav-item:hover {
-    color: #61BF3F;
+.nav-item .current {
+    color: #fff;
+    background-color: #61BF3F88;
 }
 
 .quote h5, h6 {
@@ -36,6 +42,15 @@ body {
 
 .page-header {
     color: #fff;
+}
+
+.container-about {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #696969;
+}
+
+.container-video {
+    background-color: #fff
 }
 
 #carousel-horse-captions, #carousel-facilities-captions, #carousel-trail-captions  {
@@ -82,8 +97,16 @@ body {
     color: #696969;
 }
 
+#footer-details {
+    background-color: #69696988;
+}
+
 .social-links i {
     color: #fff;
+}
+
+.social-links i:hover {
+    color: #61BF3F;
 }
 
 .copyright p {
@@ -149,14 +172,8 @@ body {
     padding: 2%;
 }
 
-.nav-item:hover {
-    font-weight: 600;
-    border-radius: 50%;
-}
-
 .nav-item .current {
     font-weight: 600;
-    border-radius: 50%;
 }
 
 .nav-book {
@@ -217,17 +234,10 @@ body {
     width: 100%;
 }
 
-.videos {
-    filter: grayscale(80%);
+.embed-responsive {
+    margin-bottom: 2%;
 }
 
-.videos:hover {
-    filter: none;
-}
-
-.videos:play {
-    filter: none;
-}
 
 .article {
     margin-top: 5%;
@@ -277,7 +287,7 @@ body {
 }
 
 #carousel-trail-captions .carousel-inner {
-    margin-bottom: 35%;
+    margin-bottom: 30%;
 }
 
 #carousel-trail-captions .carousel-inner img {
@@ -365,7 +375,7 @@ body {
     text-align: center;
     border-radius: 5%;
     font-size: 1em;
-    margin-bottom: 35%;
+    margin-bottom: 30%;
     width: 95%;
 }
 
@@ -429,7 +439,7 @@ body {
     padding: 2%;
     font-size: 1rem;
     width: 95%;
-    margin-bottom: 35%;
+    margin-bottom: 30%;
 }
 
 /*----------------------------------------------FOOTER*/
@@ -443,10 +453,13 @@ body {
     text-align: center;
     bottom: 0;
     position: fixed;
+    z-index: 2;
 }
 
 .social-links {
     font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 5%;
 }
 
 .fab {
@@ -464,7 +477,17 @@ body {
 
 /*----------------------------------------------MEDIA QUERIES*/
 
+/*TABLET*/
 
+@media (min-width: 576px) and (max-width: 768px) {
+    
+    body {
+        background-image: url(/assets/images/wild-horses.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
 
 
 
