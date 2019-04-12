@@ -249,7 +249,8 @@ body {
     margin: 0 auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 75%;
+    width: 75vh;
+    width: 75vw;
 }
 
 #carousel-horse-captions li {
@@ -294,7 +295,8 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
     margin: 0 auto;
-    width: 75%;
+    width: 75vh;
+    width: 75vw;
 }
 
 #carousel-trail-captions .carousel-indicators li {
@@ -395,7 +397,8 @@ body {
     margin: 0 auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 75%;
+    width: 75vh;
+    width: 75vw;
 }
 
 #carousel-facilities-captions li {
@@ -460,7 +463,7 @@ body {
 .social-links {
     font-size: 2rem;
     margin-bottom: 0;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .fab {
@@ -512,6 +515,18 @@ body {
         width: 50%;
         margin-bottom: 20%;
         margin-left: 25%;
+    }
+    
+    .row {
+        margin-left: 0;
+    }
+    
+    .container-fluid {
+        padding: 0;
+    }
+    
+    #footer-details {
+        position: relative;
     }
     
 }

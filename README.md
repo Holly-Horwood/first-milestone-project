@@ -1,6 +1,6 @@
 # First Milestone Project by Holly Horwood
 
-(https://holly-horwood.github.io/first-milestone-project/)
+[Majestic Equestrian Website Link](https://holly-horwood.github.io/first-milestone-project/)
 
 ---
 
