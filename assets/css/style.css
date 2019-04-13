@@ -13,7 +13,7 @@ body {
     color: #fff;
 }
 
-.top-btn, .send-button, .lesson-btn, .trail-btn, .clinic-btn {
+.top-btn, .send-button, .lesson-btn, .trail-btn, .clinic-btn, .nav-btn {
     background-color: #61BF3F;
     color: #fff;
 }
@@ -170,10 +170,7 @@ body {
 .nav-link {
     font-size: 1rem;
     padding: 2%;
-}
-
-.nav-item .current {
-    font-weight: 600;
+    margin-top: 70px;
 }
 
 .nav-book {
@@ -245,12 +242,12 @@ body {
 
 /*----------------------------------------------HORSES*/
 
-#carousel-horse-captions .carousel-inner img {
-    margin: 0 auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 75vh;
-    width: 75vw;
+#carousel-horse-captions  .carousel-inner img {
+    max-height: 500px;
+}
+
+.carousel-caption {
+    padding: 0;
 }
 
 #carousel-horse-captions li {
@@ -258,8 +255,9 @@ body {
     height: 10%;
 }
 
-.carousel-caption {
+.carousel-captions {
     position: static;
+    margin-bottom: 60px;
 }
 
 .carousel-item h5 {
@@ -566,22 +564,67 @@ body {
 
 @media (min-width: 992px) {
     
+    :root {
+    font-size: 20px;
+    }
+    
     .top-btn {
-      float: right; 
-      margin-right: 5%;
+      display: none;
+    }
+    
+    .nav-book {
+        display: inline-block;
+    }
+    
+    .nav-btn {
+        margin-top: 4%;
+        margin-right: 50px;
+        height: 8vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 2rem;
     }
     
     .navbar-brand {
         max-height: 7%;
         max-width: 7%;
+        margin-left: 4%;
     }
     
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    
+    .nav-item .current {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }    
+    
+    .nav-link:hover {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }   
+    
+    .navbar-nav .nav-item {
+        padding: 5px;
+    }
+    
+    .container-main-header {
+        padding: 0;
+    }
+    
+    .quote {
+        margin-top: 15%;
+        float: right;
+        margin-right: 50px;
+    }
     
     #footer-details {
         position: fixed;
     }
     
 }
-
 
 
