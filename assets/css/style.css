@@ -66,14 +66,6 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
 }
 
-.carousel-control-prev {
-    background-color: #61BF3F;
-}
-
-.carousel-control-next {
-    background-color: #61BF3F;
-}
-
 .carousel-item h5 {
     color: #696969;
     background-color: rgba(255, 255, 255, 0.90);
@@ -124,7 +116,7 @@ body {
 
 /*----------------------------------------------GENERAL*/
 
-:root {
+*:root {
     font-size: 16px;
 }
 
@@ -251,12 +243,12 @@ body {
 .container-about {
     height: 60%;
     width: 100%;
+    margin-bottom: 150px;
 }
 
 .embed-responsive {
     margin-bottom: 2%;
 }
-
 
 .article {
     margin-top: 5%;
@@ -266,6 +258,8 @@ body {
 
 #carousel-horse-captions  .carousel-inner img {
     max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #carousel-horse-captions li {
@@ -273,10 +267,14 @@ body {
     height: 10%;
 }
 
-.carousel-captions {
-    position: static;
-    margin-bottom: 60px;
-    padding: 0;
+.horse-carousel {
+        border-top: 20px solid rgba(255, 255, 255, 0.90);
+    }
+
+.carousel-caption {
+    position: initial;
+    bottom: 0px;
+    padding: 10px;
 }
 
 .carousel-item h5 {
@@ -304,12 +302,15 @@ body {
     width: 95%;
 }
 
+#carousel-trail-captions {
+    margin-bottom: 150px
+}
+
 #carousel-trail-captions .carousel-inner img {
     padding-top: 2%;
     padding-bottom: 2%;
     margin: 0 auto;
-    width: 75vh;
-    width: 75vw;
+    max-height: 500px;
 }
 
 #carousel-trail-captions .carousel-indicators li {
@@ -389,8 +390,8 @@ body {
     text-align: center;
     border-radius: 25px;
     font-size: 1em;
-    margin-bottom: 5%;
-    width: 95%;
+    margin-bottom: 150px;
+    width: 100%;
 }
 
 .card-body {
@@ -407,6 +408,8 @@ body {
 
 #carousel-facilities-captions  .carousel-inner img {
     max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #carousel-facilities-captions li {
@@ -414,15 +417,20 @@ body {
     height: 10%;
 }
 
+.facilities-carousel {
+        border-top: 20px solid rgba(255, 255, 255, 0.90);
+    }
+
 /*----------------------------------------------CONTACT*/
 
 .form-group {
-    width: 95%;
+    width: 100%;
     font-size: 1rem;
+    margin: auto;
 }
 
 .message-box {
-    width: 95%;
+    width: 100%;
     font-size: 1rem;
 }
 
@@ -441,14 +449,14 @@ body {
 
 .map iframe {
     margin-top: 5%;
-    width: 95%;
+    width: 100%;
     filter: sepia(50%);
 }
 
 .map p {
     padding: 2%;
     font-size: 1rem;
-    width: 95%;
+    width: 100%;
     border-radius: .25rem;
     margin-bottom: 150px;
 }
@@ -492,6 +500,10 @@ body {
 
 @media (min-width: 576px) {
     
+    *:root {
+        font-size: 20px;
+    }
+    
     body {
         background-image: url(/assets/images/wild-horses.jpg);
         background-size: cover;
@@ -509,6 +521,22 @@ body {
         border-radius: 5px;
     }
     
+    /*LESSONS*/
+    
+    .card-body {
+        padding: 5px 0;
+    }
+    
+    /*FACILITIES*/
+    
+    .carousel-control-next, .carousel-control-prev {
+        background-color: #61BF3F88;
+    }
+    
+    .facilities-carousel {
+        margin-bottom: 150px;
+    }
+    
     /*CONTACT*/
     
     .map p {
@@ -523,8 +551,8 @@ body {
     
     /*GENERAL*/
     
-    :root {
-        font-size: 20px;
+    *:root {
+        font-size: 25px;
     }
     
     .page-header {
@@ -541,6 +569,10 @@ body {
         margin-bottom: 30px;
     }
     
+    .nav-link {
+        font-size: 1.2rem;
+    }
+    
     .nav-book {
         display: block;
     }
@@ -548,11 +580,23 @@ body {
     .top-btn {
         display: none;
     }
+    
+    /*ABOUT*/
+    
+    .container-about {
+        font-size: .8rem;
+    }
+
+    
 
     /*CONTACT PAGE*/
+    
+    .form-group .label {
+        font-size: 1.2rem;
+    }
 
     .map iframe {
-        height: 48vh;
+        height: 17rem;
     }
     
     .send-button {
