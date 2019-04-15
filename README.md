@@ -86,13 +86,19 @@ The Lessons page also has a link at the bottom of the page to a separate PDF tha
 
 ##### Testing:
 
-This website was tested manually by myself as well as friends and family.  Each page was clicked through and each interactive part of each page was tested to ensure it was functional.
+-This website was tested manually by myself as well as friends and family.  Each page was clicked through and each interactive part of each     page was tested to ensure it was functional.
+
+-It was tested on Chrome, Firefox and IE.  
+
+-It was also put through the W3C markup and CSS validators to check for any errors in the code.
+
+-I originally built it desktop first so had to go back to the start and redo it as mobile first.
 
 ---
 
 ##### Deployment:
 
-This website was developed in cloud9 and regularly pushed to the repository [Holly-Horwood/first-milestone-project] in Github.
+This website was developed and stored in cloud9.  After updates it was regularly pusehed to regularly pushed to the repository [Holly Horwood Github Repository](Holly-Horwood/first-milestone-project) in Github.
 
 ---
 
