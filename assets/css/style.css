@@ -681,6 +681,10 @@ body {
         font-size: .5rem;
     }
     
+    .modal-placeholder, .form-modal, .modal-picker, .form-name {
+        font-size: .7rem;
+    }
+    
 }
 
 

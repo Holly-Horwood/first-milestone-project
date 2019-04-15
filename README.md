@@ -84,21 +84,25 @@ The Lessons page also has a link at the bottom of the page to a separate PDF tha
 
 ---
 
-##### Testing:
+##### Testing & Bugs:
 
--This website was tested manually by myself as well as friends and family.  Each page was clicked through and each interactive part of each     page was tested to ensure it was functional.
+- This website was tested manually by myself as well as friends and family.  Each page was clicked through and each interactive part of each     page was tested to ensure it was functional.
 
--It was tested on Chrome, Firefox and IE.  
+- It was tested on Chrome, Firefox and IE.  
 
--It was also put through the W3C markup and CSS validators to check for any errors in the code.
+- It was also put through the W3C markup and CSS validators to check for any errors in the code.
 
--I originally built it desktop first so had to go back to the start and redo it as mobile first.
+- I originally built it desktop first so had to go back to the start and redo it as mobile first.
+
+- I realised forms were not validating so had to add in the code for this.
+
+- There does seem to have been an intermittent issue with the background image on desktop view not being able to be found causing the background to be grey.  I have not found a reason why this has happened, it has only happened twice but refreshing the screen then brings the background image back again. 
 
 ---
 
 ##### Deployment:
 
-This website was developed and stored in cloud9.  After updates it was regularly pusehed to regularly pushed to the repository [Holly Horwood Github Repository](Holly-Horwood/first-milestone-project) in Github.
+This website was developed and stored in cloud9.  After updates it was regularly pusehed to my repository [Holly Horwood Github Repository](Holly-Horwood/first-milestone-project) in Github.
 
 ---
 

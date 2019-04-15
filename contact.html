@@ -66,20 +66,20 @@
                 <form>
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Type name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
+                        <input type="text" class="form-control" id="name" placeholder="Type name here..." required/>
                     </div>
                     <div class="form-group">
                         <label for="email">Email Adress</label>
-                        <input type="text" class="form-control" id="email" placeholder="Type email here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type email here...'">
+                        <input type="text" class="form-control" id="email" placeholder="Type email here..." required/>
                     </div>
                     <div class="form-group">
                         <label for="number">Phone Number</label>
-                        <input type="text" class="form-control" id="number" placeholder="Type number here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type number here...'">
+                        <input type="number" class="form-control" id="number" placeholder="Type number here..." required/>
                         <p><i>We will never share your details with anyone.</i></p>
                     </div>
                     <div class="message-box">
                     <label for="comment">Message</label>
-                      <textarea class="form-control" rows="5" id="comment" placeholder="Type message here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type message here...'"></textarea>
+                      <textarea class="form-control" rows="5" id="comment" placeholder="Type message here..."/></textarea>
                       </div>
                       <div class="send-btn">
                         <button type="button" class="btn btn-lg send-button">Send</button>
@@ -110,11 +110,11 @@
                 <div class="modal-body">
                     <!--START OF CONTACT FORM-->
                     <div class="modal-contact">
-                        <div class="row d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center modal-form">
                             <div class="col-md-6 col-sm-12">
                                 <form>
-                                    <div class="form-group form-modal">
-                                        <label for="formGroupNameInput">Full Name</label>
+                                    <div class="form-group modal-form">
+                                        <label for="formGroupNameInput" class="form-name">Full Name</label>
                                         <input class="modal-placeholder form-control" type="text" id="formGroupNameInput" placeholder="Type name here..." onfocus="this.placeholder=''" onblur="this.placeholder='Type name here...'">
                                     </div>
                                     <div class="form-group form-modal">
@@ -127,7 +127,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="col-md-6 col-sm-12 picker">
+                            <div class="col-md-6 col-sm-12 modal-picker">
                                 <div class="service-title d-flex justify-content-center">Select service below:</div>
                                 <div class="row d-flex justify-content-center">
                                     <select class="service">
