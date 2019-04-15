@@ -137,6 +137,7 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     padding: 2px;
+    margin-top: 20px;
 }
 
 #wrapper {
@@ -175,16 +176,14 @@ body {
     margin-top: 70px;
 }
 
-.nav-item:hover {
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
+.nav-link:hover {
+    font-weight: 600;
+    border-radius: 50%;
 }
 
 .nav-item .current {
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    font-weight: 600;
+    border-radius: 50%;
 }
 
 .nav-book {
@@ -585,9 +584,22 @@ body {
     
     .container-about {
         font-size: .8rem;
+        max-width: 1500px;
+    }
+    
+    .embed-responsive {
+        width: 650px;
+        height: 330px;
+        filter: sepia(80%);
     }
 
-    
+    .embed-responsive-item:play {
+        filter: none;
+    }
+
+    .article {
+        margin-top: 0;
+    }
 
     /*CONTACT PAGE*/
     
