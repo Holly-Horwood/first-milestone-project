@@ -140,6 +140,14 @@ body {
     margin-top: 20px;
 }
 
+ .nav-book {
+    display: block;
+}
+    
+.top-btn {
+    display: none;
+}
+
 #wrapper {
     width: 100%;
     padding: 2%;
@@ -666,6 +674,13 @@ body {
     .send-button {
         margin-bottom: 150px;
     }
+    
+    /*MODAL*/
+    
+    .modal-body {
+        font-size: .5rem;
+    }
+    
 }
 
 
