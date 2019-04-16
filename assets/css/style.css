@@ -509,11 +509,11 @@ body {
 @media (min-width: 576px) {
     
     *:root {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     body {
-        background-image: url(assets/images/wild-horses.jpg);
+        background-image: url(../images/wild-horses.jpg);
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -560,7 +560,7 @@ body {
     /*GENERAL*/
     
     *:root {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .page-header {
