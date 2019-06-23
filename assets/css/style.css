@@ -9,6 +9,7 @@ body {
     background-color: #999999;
 }
 
+
 .container {
     color: #fff;
 }
@@ -26,11 +27,6 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 } 
-
-.nav-link:hover {
-    color: #fff;
-    background-color: #61BF3F88;
-}
 
 .nav-item .current {
     color: #fff;
@@ -185,11 +181,6 @@ body {
 }
 
 .nav-link:hover {
-    font-weight: 600;
-    border-radius: 50%;
-}
-
-.nav-item .current {
     font-weight: 600;
     border-radius: 50%;
 }
@@ -394,12 +385,11 @@ body {
 }
 
 .card {
-    margin-top: 5%;
     text-align: center;
     border-radius: 25px;
     font-size: 1em;
     margin-bottom: 150px;
-    width: 100%;
+    width: 50%;
 }
 
 .card-body {
@@ -517,6 +507,7 @@ body {
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
+        background-blend-mode: luminosity;
     }
     
     /*NAVBAR*/
@@ -592,6 +583,7 @@ body {
     .navbar {
         padding-top: 0;
     }
+    
     
     .top-btn {
         display: none;
