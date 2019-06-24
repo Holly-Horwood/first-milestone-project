@@ -31,6 +31,7 @@ body {
 .nav-item .current {
     color: #fff;
     background-color: #61BF3F88;
+    border-radius: 50%;
 }
 
 .quote h5, h6 {
@@ -65,6 +66,10 @@ body {
 .carousel-item h5 {
     color: #696969;
     background-color: rgba(255, 255, 255, 0.90);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: #69696988;
 }
 
 .text-wrapper {
@@ -159,7 +164,7 @@ body {
 /*----------------------------------------------NAVBAR*/
 
 .navbar {
-    display: flex;
+    display: float;
 }
 
 .navbar-toggler {
@@ -178,11 +183,6 @@ body {
     font-size: 1rem;
     padding: 2%;
     margin-top: 70px;
-}
-
-.nav-link:hover {
-    font-weight: 600;
-    border-radius: 50%;
 }
 
 .nav-book {
@@ -258,6 +258,7 @@ body {
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 #carousel-horse-captions li {
@@ -266,7 +267,6 @@ body {
 }
 
 .horse-carousel {
-        border-top: 20px solid rgba(255, 255, 255, 0.90);
         margin-bottom: 150px;
     }
 
@@ -401,23 +401,19 @@ body {
     text-align: center;
 }
 
-
 /*----------------------------------------------FACILITIES*/
 
 #carousel-facilities-captions  .carousel-inner img {
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 #carousel-facilities-captions li {
     width: 10%;
     height: 10%;
 }
-
-.facilities-carousel {
-        border-top: 20px solid rgba(255, 255, 255, 0.90);
-    }
 
 /*----------------------------------------------CONTACT*/
 
@@ -448,7 +444,7 @@ body {
 .map iframe {
     margin-top: 5%;
     width: 100%;
-    filter: sepia(50%);
+    filter: grayscale(50%);
 }
 
 .map p {
@@ -527,10 +523,6 @@ body {
     }
     
     /*FACILITIES*/
-    
-    .carousel-control-next, .carousel-control-prev {
-        background-color: #61BF3F88;
-    }
     
     .facilities-carousel {
         margin-bottom: 150px;
@@ -626,7 +618,7 @@ body {
     .embed-responsive {
         width: 650px;
         height: 330px;
-        filter: sepia(80%);
+        filter: grayscale(100%);
     }
 
     .vid1, .vid2:active {
@@ -635,6 +627,7 @@ body {
 
     .article {
         margin-top: 0;
+        font-size: 1rem;
     }
     
     /*TRAIL RIDES*/
